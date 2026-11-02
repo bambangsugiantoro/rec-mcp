@@ -4,7 +4,7 @@
 
 Replication package for:
 
-> Sugiantoro, B., Hafizuddin, F.A. *Relational Effect Contracts for Securing MCP Tool Execution.* Submitted to *Computers & Security* (Elsevier).
+> Sugiantoro, B., Hafizuddin, F.A. *Relational Effect Contracts for Securing MCP Tool Execution.* Manuscript under review.
 
 The package contains the static analyzer, the audit and enforcement broker, the benchmarks for every research question, the frozen corpus manifest, the tool-level labels and all raw and summary results reported in the paper.
 
@@ -58,7 +58,7 @@ python3 bench/rq2_bench.py                   # writes results/rq2_results.json
 python3 bench/rq4_overhead.py                # writes results/rq4_overhead.json
 ```
 
-Sampling uses seed `20261101`. Numbers in the paper are computed from the JSON files in `results/`.
+Corpus sampling uses seed `20261102` (`scripts/expand_corpus.py`); the labelled tool sample uses seed `20261103` (`scripts/make_annotation_forms.py`). Numbers in the paper are computed from the JSON files in `results/`.
 
 ## What is not included
 
