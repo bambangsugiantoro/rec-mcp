@@ -1,0 +1,13 @@
+{
+  "title": "REC-MCP: Replication package for Relational Effect Contracts for Securing MCP Tool Execution",
+  "upload_type": "software",
+  "description": "Static analyzer, enforcement broker, benchmarks, corpus manifest, labels and raw results for the paper 'Relational Effect Contracts for Securing MCP Tool Execution' (submitted to Computers & Security).",
+  "creators": [
+    {"name": "Sugiantoro, Bambang", "affiliation": "UIN Sunan Kalijaga, Yogyakarta, Indonesia"},
+    {"name": "Hafizuddin, Faiz Akhmad", "affiliation": "UIN Sunan Kalijaga, Yogyakarta, Indonesia"}
+  ],
+  "license": "MIT",
+  "keywords": ["Model Context Protocol", "LLM agents", "authorization", "static analysis", "reference monitor"],
+  "version": "1.0.0",
+  "access_right": "open"
+}

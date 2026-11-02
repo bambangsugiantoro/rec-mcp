@@ -1,0 +1,108 @@
+{
+ "attempted": 74,
+ "funnel": {
+  "included": 40,
+  "I2: no decorated/registered Python MCP tool": 21,
+  "I3: no file/HTTP site reachable": 11,
+  "I1: clone failed": 2
+ },
+ "repos": 40,
+ "tools": 975,
+ "tools_with_sites": 515,
+ "sites": 1749,
+ "status": {
+  "exact": 1240,
+  "failed": 416,
+  "stored": 93
+ },
+ "pooled": {
+  "exact": 0.709,
+  "failed": 0.238,
+  "stored": 0.053
+ },
+ "repo_median_exact": 0.722,
+ "repo_median_stored": 0.0,
+ "repo_median_failed": 0.104,
+ "repo_median_exact_or_stored": 0.896,
+ "by_kind": {
+  "fs.write": {
+   "n": 443,
+   "exact": 0.792,
+   "stored": 0.065,
+   "failed": 0.142
+  },
+  "http.request": {
+   "n": 469,
+   "exact": 0.74,
+   "stored": 0.015,
+   "failed": 0.245
+  },
+  "fs.read": {
+   "n": 645,
+   "exact": 0.685,
+   "stored": 0.036,
+   "failed": 0.279
+  },
+  "fs.list": {
+   "n": 134,
+   "exact": 0.507,
+   "stored": 0.254,
+   "failed": 0.239
+  },
+  "fs.delete": {
+   "n": 58,
+   "exact": 0.552,
+   "stored": 0.0,
+   "failed": 0.448
+  }
+ },
+ "via_helper_pooled": 0.959,
+ "via_helper_repo_median": 1.0,
+ "bot_reasons": [
+  [
+   "call",
+   235
+  ],
+  [
+   "unknown",
+   151
+  ],
+  [
+   "attribute",
+   103
+  ],
+  [
+   "loop",
+   49
+  ],
+  [
+   "subscript",
+   32
+  ],
+  [
+   "handle",
+   24
+  ],
+  [
+   "none",
+   1
+  ]
+ ],
+ "signal_tools": {
+  "writes object not named by any argument": 147,
+  "argument controls request URL/host": 7,
+  "write/delete in tool named as read-only": 34,
+  "arg-controlled path without containment check": 9
+ },
+ "signal_repos": {
+  "writes object not named by any argument": 17,
+  "argument controls request URL/host": 4,
+  "write/delete in tool named as read-only": 8,
+  "arg-controlled path without containment check": 4
+ },
+ "tools_any_signal": 171,
+ "repos_any_signal": 22,
+ "sites_per_repo_median": 15.5,
+ "sites_per_repo_max": 270,
+ "tools_per_repo_median": 11.0
+}

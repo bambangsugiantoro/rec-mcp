@@ -1,0 +1,2668 @@
+{
+ "B1": {
+  "T001": {
+   "kinds": [
+    "fs.write",
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Tidak",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi (operasi utama sesuai deskripsi)",
+    "Benign-by-design (autentikasi JWT terdokumentasi di README)",
+    "Benign-by-design (audit log terdokumentasi di README)"
+   ],
+   "unread": false,
+   "rows": 3
+  },
+  "T002": {
+   "kinds": [
+    "fs.write",
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Tidak",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi (operasi utama sesuai deskripsi)",
+    "Benign-by-design (autentikasi JWT terdokumentasi di README)",
+    "Benign-by-design (audit log terdokumentasi di README)"
+   ],
+   "unread": false,
+   "rows": 3
+  },
+  "T003": {
+   "kinds": [
+    "fs.write",
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Tidak",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi (operasi utama sesuai deskripsi)",
+    "Benign-by-design (autentikasi JWT terdokumentasi di README)",
+    "Benign-by-design (audit log terdokumentasi di README)"
+   ],
+   "unread": false,
+   "rows": 3
+  },
+  "T004": {
+   "kinds": [
+    "http.request"
+   ],
+   "implied": [
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (deskripsi: live autocomplete AO3)"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T005": {
+   "kinds": [
+    "http.request"
+   ],
+   "implied": [
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (operasi utama sesuai deskripsi)"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T006": {
+   "kinds": [
+    "http.request"
+   ],
+   "implied": [
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (operasi utama sesuai deskripsi)"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T007": {
+   "kinds": [
+    "http.request"
+   ],
+   "implied": [
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (operasi utama sesuai deskripsi)"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T008": {
+   "kinds": [
+    "http.request"
+   ],
+   "implied": [
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (operasi utama sesuai deskripsi)"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T009": {
+   "kinds": [
+    "fs.read",
+    "fs.write"
+   ],
+   "implied": [
+    "Ya",
+    "Tidak",
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (deskripsi: evaluasi pada file/direktori input)",
+    "Relevan keamanan (file arbitrer dibaca sebagai JSON; deskripsi hanya menyebut custom_config sebagai kwarg, bukan pembacaan file)",
+    "Tidak ada divergensi (deskripsi menyebut output dibuat relatif ke input_path / output_dir)"
+   ],
+   "unread": false,
+   "rows": 3
+  },
+  "T010": {
+   "kinds": [
+    "fs.read",
+    "fs.write"
+   ],
+   "implied": [
+    "Ya",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi (deskripsi: evaluasi cepat atas file input_path)",
+    "Relevan keamanan (direktori hasil dibuat & ditulis; deskripsi hanya menyebut 'ringkasan atau path hasil')"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T011": {
+   "kinds": [
+    "fs.read",
+    "fs.write"
+   ],
+   "implied": [
+    "Ya",
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (operasi utama sesuai deskripsi)",
+    "Tidak ada divergensi (deskripsi: step dicatat di receipt)"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T012": {
+   "kinds": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Ya",
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (operasi utama sesuai deskripsi)",
+    "Tidak ada divergensi (deskripsi menyebut pemakaian jaringan & PROOFLEDGER_API_KEY)",
+    "Tidak ada divergensi (deskripsi: bundle disimpan ke receipt)"
+   ],
+   "unread": false,
+   "rows": 3
+  },
+  "T013": {
+   "kinds": [
+    "fs.read"
+   ],
+   "implied": [
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (operasi utama sesuai deskripsi)"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T014": {
+   "kinds": [
+    "fs.list"
+   ],
+   "implied": [
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (operasi utama sesuai deskripsi)"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T015": {
+   "kinds": [
+    "fs.read"
+   ],
+   "implied": [
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (operasi utama sesuai deskripsi)"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T016": {
+   "kinds": [
+    "fs.write"
+   ],
+   "implied": [
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (operasi utama sesuai deskripsi)"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T017": {
+   "kinds": [
+    "fs.read",
+    "fs.write"
+   ],
+   "implied": [
+    "Ya",
+    "Ya",
+    "Sebagian"
+   ],
+   "div": [
+    "Tidak ada divergensi (deskripsi: 'Path to a .md file')",
+    "Tidak ada divergensi (operasi utama sesuai deskripsi)",
+    "Tersirat sebagian (template disebut; pembacaan file gambar dari markdown tidak disebut eksplisit)"
+   ],
+   "unread": false,
+   "rows": 3
+  },
+  "T018": {
+   "kinds": [
+    "fs.write"
+   ],
+   "implied": [
+    "Ya",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi (README: 'Save changes back to .docx (can overwrite or save to new path)')",
+    "Tersirat sebagian (penulisan file cadangan tidak disebut di deskripsi)"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T019": {
+   "kinds": [
+    "fs.read",
+    "fs.write"
+   ],
+   "implied": [
+    "Ya",
+    "Ya",
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (deskripsi: 'Store ... to persistent memory')",
+    "Tidak ada divergensi (dedup/merge disebut di deskripsi)",
+    "Tidak ada divergensi (merge disebut di deskripsi)"
+   ],
+   "unread": false,
+   "rows": 3
+  },
+  "T020": {
+   "kinds": [
+    "fs.read"
+   ],
+   "implied": [
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (membaca trace lokal sesuai instruksi server)"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T021": {
+   "kinds": [
+    "fs.read"
+   ],
+   "implied": [
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (membaca trace lokal sesuai instruksi server)"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T022": {
+   "kinds": [
+    "fs.write",
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi (menyimpan section ke DB memori, sesuai deskripsi)",
+    "Benign-by-design (cloud sync S3/R2 terdokumentasi di README, opsional)"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T023": {
+   "kinds": [
+    "fs.read"
+   ],
+   "implied": [
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (baca memori/TODO/relasi dari DB, sesuai deskripsi)"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T024": {
+   "kinds": [
+    "fs.write",
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi (gabung source_id ke target_id di DB, sesuai deskripsi)",
+    "Benign-by-design (cloud sync S3/R2 terdokumentasi di README, opsional)"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T025": {
+   "kinds": [
+    "http.request"
+   ],
+   "implied": [
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (DELETE subject per context, sesuai nama tool)"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T026": {
+   "kinds": [
+    "http.request"
+   ],
+   "implied": [
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (operasi utama sesuai deskripsi)"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T027": {
+   "kinds": [
+    "http.request"
+   ],
+   "implied": [
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (POST schema ke subject, sesuai deskripsi)"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T028": {
+   "kinds": [
+    "http.request"
+   ],
+   "implied": [
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (mengubah output sel di notebook aktif)"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T029": {
+   "kinds": [
+    "http.request"
+   ],
+   "implied": [
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (menghapus sel di notebook aktif)"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T030": {
+   "kinds": [
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (eksekusi kode sel di kernel, sesuai deskripsi)",
+    "Tidak ada divergensi (membaca sumber sel & menulis output)"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T031": {
+   "kinds": [
+    "fs.write"
+   ],
+   "implied": [
+    "Tidak"
+   ],
+   "div": [
+    "Benign-by-design (pencatatan panggilan/telemetri; id & country disanitasi via loggable_query)"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T032": {
+   "kinds": [
+    "http.request"
+   ],
+   "implied": [
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (operasi utama sesuai deskripsi)"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T033": {
+   "kinds": [
+    "http.request"
+   ],
+   "implied": [
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (operasi utama sesuai deskripsi)"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T034": {
+   "kinds": [
+    "http.request"
+   ],
+   "implied": [
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (operasi utama sesuai deskripsi)"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T035": {
+   "kinds": [
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Sebagian"
+   ],
+   "div": [
+    "Tidak ada divergensi (operasi utama sesuai deskripsi)",
+    "Benign-by-design (bagian wajar audit 'LLM readiness')"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T036": {
+   "kinds": [
+    "fs.write",
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Sebagian",
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (operasi utama sesuai deskripsi)",
+    "Benign-by-design (model LLM disebut di argumen 'model ... auto-detected from env')",
+    "Tidak ada divergensi (output_dir didokumentasikan)"
+   ],
+   "unread": false,
+   "rows": 3
+  },
+  "T037": {
+   "kinds": [
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Sebagian"
+   ],
+   "div": [
+    "Tidak ada divergensi (operasi utama sesuai deskripsi)",
+    "Benign-by-design (bagian wajar audit)"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T038": {
+   "kinds": [
+    "fs.delete",
+    "fs.write"
+   ],
+   "implied": [
+    "Ya",
+    "Ya",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi (output_path didokumentasikan sebagai host path)",
+    "Tidak ada divergensi (output_path didokumentasikan untuk .hprof)",
+    "Benign-by-design (pembersihan file dump sementara di perangkat)"
+   ],
+   "unread": false,
+   "rows": 3
+  },
+  "T039": {
+   "kinds": [
+    "fs.read",
+    "fs.write"
+   ],
+   "implied": [
+    "Tidak",
+    "Tidak",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak disebut (deskripsi hanya 'Converts multiple latex snippets to typst'; file sementara tidak disebut)",
+    "Tersirat sebagian (konversi disebut; penulisan file oleh pandoc tidak disebut)",
+    "Tidak disebut (hasil dikembalikan sebagai JSON; pembacaan file sementara tidak disebut)"
+   ],
+   "unread": false,
+   "rows": 3
+  },
+  "T040": {
+   "kinds": [
+    "fs.read",
+    "fs.write"
+   ],
+   "implied": [
+    "Ya",
+    "Sebagian"
+   ],
+   "div": [
+    "Tidak ada divergensi (membaca file simulasi untuk post-processing otomatis)",
+    "Benign-by-design (output ke folder output terkonfigurasi)"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T041": {
+   "kinds": [
+    "fs.list",
+    "fs.read",
+    "fs.write"
+   ],
+   "implied": [
+    "Ya",
+    "Tidak",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi (membaca file simulasi sesuai deskripsi)",
+    "Benign-by-design (daftar file sibling untuk saran 'Did you mean' saat file tidak ada)",
+    "Benign-by-design (file sementara/output render oleh runner)"
+   ],
+   "unread": false,
+   "rows": 3
+  },
+  "T042": {
+   "kinds": [
+    "fs.read",
+    "fs.write"
+   ],
+   "implied": [
+    "Ya",
+    "Sebagian"
+   ],
+   "div": [
+    "Tidak ada divergensi (membaca data volumetrik sesuai deskripsi)",
+    "Potensi relevan keamanan (output_filename tak tervalidasi di server.py)"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T043": {
+   "kinds": [
+    "fs.read"
+   ],
+   "implied": [
+    "Ya",
+    "Ya"
+   ],
+   "div": [
+    "Benign-by-design (baca data referensi bawaan, offline)",
+    "Benign-by-design (baca data referensi bawaan, offline)"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T044": {
+   "kinds": [
+    "fs.read"
+   ],
+   "implied": [
+    "Ya"
+   ],
+   "div": [
+    "Benign-by-design (baca data referensi bawaan, offline)"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T045": {
+   "kinds": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Tidak",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi (operasi utama sesuai deskripsi: menelepon user)",
+    "Benign-by-design (file audio sementara untuk TTS)",
+    "Benign-by-design (transkripsi lokal suara user)"
+   ],
+   "unread": false,
+   "rows": 3
+  },
+  "T046": {
+   "kinds": [
+    "fs.read"
+   ],
+   "implied": [
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (deskripsi: membaca Log.txt Ableton terbaru)"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T047": {
+   "kinds": [
+    "fs.read",
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Sebagian",
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (operasi utama sesuai deskripsi)",
+    "Relevan keamanan (path berasal dari data tersimpan)",
+    "Benign-by-design (deskripsi: satu-satunya tool yang boleh panggil jaringan, khusus evidence Gitea)"
+   ],
+   "unread": false,
+   "rows": 3
+  },
+  "T048": {
+   "kinds": [
+    "fs.read",
+    "fs.write"
+   ],
+   "implied": [
+    "Tidak",
+    "Tidak"
+   ],
+   "div": [
+    "Benign-by-design (template bawaan paket; message_type divalidasi enum valid_xml_types)",
+    "Benign-by-design (staging temp; docstring 'no file is written' merujuk ke output XML)"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T049": {
+   "kinds": [
+    "http.request"
+   ],
+   "implied": [
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (operasi utama sesuai deskripsi)"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T050": {
+   "kinds": [
+    "http.request"
+   ],
+   "implied": [
+    "Sebagian"
+   ],
+   "div": [
+    "Benign-by-design (select bisa memicu navigasi/request di halaman sesi)"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T051": {
+   "kinds": [
+    "fs.write",
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Sebagian",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi (operasi utama sesuai deskripsi)",
+    "Benign-by-design (screenshot hasil test)",
+    "Benign-by-design (login otomatis ke project tersimpan)"
+   ],
+   "unread": false,
+   "rows": 3
+  },
+  "T052": {
+   "kinds": [
+    "http.request"
+   ],
+   "implied": [
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (operasi utama sesuai deskripsi)"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T053": {
+   "kinds": [
+    "http.request"
+   ],
+   "implied": [
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (operasi utama sesuai nama/deskripsi tool; diasumsikan)"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T054": {
+   "kinds": [
+    "http.request"
+   ],
+   "implied": [
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (deskripsi server menyebut 'connectivity and rate-tier checks'; diasumsikan)"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T055": {
+   "kinds": [
+    "fs.read"
+   ],
+   "implied": [
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (operasi utama sesuai deskripsi)"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T056": {
+   "kinds": [
+    "fs.read"
+   ],
+   "implied": [
+    "Ya",
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (operasi utama sesuai deskripsi)",
+    "Bug: memakai repo_path mentah, bukan repo (fallback)"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T057": {
+   "kinds": [
+    "fs.delete",
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi (operasi utama sesuai deskripsi)",
+    "Tidak ada divergensi (operasi utama sesuai deskripsi)"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T058": {
+   "kinds": [
+    "fs.write",
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi (operasi utama sesuai deskripsi)",
+    "Benign-by-design (cache hasil)"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T059": {
+   "kinds": [
+    "fs.write",
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi (operasi utama sesuai deskripsi)",
+    "Benign-by-design (cache hasil)"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T060": {
+   "kinds": [
+    "fs.read",
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi (operasi utama sesuai deskripsi)",
+    "Benign-by-design (pembacaan API key tersimpan, terdokumentasi di README: `pv config set-key`)"
+   ],
+   "unread": false,
+   "rows": 2
+  }
+ },
+ "B2": {
+  "T001": {
+   "kinds": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Tidak",
+    "Tidak",
+    "Tidak",
+    "Sebagian"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Benign-by-design",
+    "Benign-by-design",
+    "Benign-by-design",
+    "Benign-by-design"
+   ],
+   "unread": false,
+   "rows": 5
+  },
+  "T002": {
+   "kinds": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Tidak",
+    "Tidak",
+    "Tidak",
+    "Sebagian"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Benign-by-design",
+    "Benign-by-design",
+    "Benign-by-design",
+    "Benign-by-design"
+   ],
+   "unread": false,
+   "rows": 5
+  },
+  "T003": {
+   "kinds": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Tidak",
+    "Tidak",
+    "Tidak",
+    "Sebagian"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Benign-by-design",
+    "Benign-by-design",
+    "Benign-by-design",
+    "Benign-by-design"
+   ],
+   "unread": false,
+   "rows": 5
+  },
+  "T004": {
+   "kinds": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Tidak",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Tidak tahu",
+    "Tidak tahu"
+   ],
+   "unread": false,
+   "rows": 3
+  },
+  "T005": {
+   "kinds": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Tidak",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Tidak tahu",
+    "Tidak tahu"
+   ],
+   "unread": false,
+   "rows": 3
+  },
+  "T006": {
+   "kinds": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Tidak",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Tidak tahu",
+    "Tidak tahu"
+   ],
+   "unread": false,
+   "rows": 3
+  },
+  "T007": {
+   "kinds": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Tidak",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Benign-by-design",
+    "Relevan keamanan"
+   ],
+   "unread": false,
+   "rows": 3
+  },
+  "T008": {
+   "kinds": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Tidak",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Benign-by-design",
+    "Relevan keamanan"
+   ],
+   "unread": false,
+   "rows": 3
+  },
+  "T009": {
+   "kinds": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Ya",
+    "Sebagian",
+    "Sebagian",
+    "Tidak",
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Tidak ada divergensi",
+    "Benign-by-design",
+    "Benign-by-design",
+    "Benign-by-design",
+    "Tidak ada divergensi"
+   ],
+   "unread": false,
+   "rows": 6
+  },
+  "T010": {
+   "kinds": [
+    "fs.read",
+    "fs.write"
+   ],
+   "implied": [
+    "Ya",
+    "Sebagian",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Tidak ada divergensi",
+    "Benign-by-design"
+   ],
+   "unread": false,
+   "rows": 3
+  },
+  "T011": {
+   "kinds": [
+    "fs.read",
+    "fs.write"
+   ],
+   "implied": [
+    "Ya",
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Tidak ada divergensi"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T012": {
+   "kinds": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Ya",
+    "Ya",
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Tidak ada divergensi",
+    "Tidak ada divergensi",
+    "Tidak ada divergensi"
+   ],
+   "unread": false,
+   "rows": 4
+  },
+  "T013": {
+   "kinds": [
+    "fs.read"
+   ],
+   "implied": [
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T014": {
+   "kinds": [
+    "fs.list"
+   ],
+   "implied": [
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T015": {
+   "kinds": [
+    "fs.read"
+   ],
+   "implied": [
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T016": {
+   "kinds": [
+    "fs.write"
+   ],
+   "implied": [
+    "Ya"
+   ],
+   "div": [
+    "Tidak ada divergensi"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T017": {
+   "kinds": [
+    "fs.read",
+    "fs.write"
+   ],
+   "implied": [
+    "Ya",
+    "Ya",
+    "Ya",
+    "Sebagian"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Tidak ada divergensi",
+    "Tidak ada divergensi",
+    "Benign-by-design"
+   ],
+   "unread": false,
+   "rows": 4
+  },
+  "T018": {
+   "kinds": [
+    "fs.write"
+   ],
+   "implied": [
+    "Ya",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Benign-by-design"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T019": {
+   "kinds": [
+    "fs.read",
+    "fs.write"
+   ],
+   "implied": [
+    "Ya",
+    "Ya",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Tidak ada divergensi",
+    "Tidak tahu"
+   ],
+   "unread": false,
+   "rows": 3
+  },
+  "T020": {
+   "kinds": [
+    "fs.list",
+    "fs.read"
+   ],
+   "implied": [
+    "Ya",
+    "Sebagian"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Tidak ada divergensi"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T021": {
+   "kinds": [
+    "fs.list",
+    "fs.read"
+   ],
+   "implied": [
+    "Ya",
+    "Sebagian"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Tidak ada divergensi"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T022": {
+   "kinds": [
+    "fs.write",
+    "http.request"
+   ],
+   "implied": [
+    "Sebagian",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Tidak tahu"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T023": {
+   "kinds": [
+    "fs.read",
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Tidak tahu"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T024": {
+   "kinds": [
+    "fs.write",
+    "http.request"
+   ],
+   "implied": [
+    "Sebagian",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Tidak tahu"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T025": {
+   "kinds": [
+    "fs.read",
+    "http.request"
+   ],
+   "implied": [
+    "Sebagian",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Benign-by-design"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T026": {
+   "kinds": [
+    "fs.read",
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Benign-by-design"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T027": {
+   "kinds": [
+    "fs.read",
+    "http.request"
+   ],
+   "implied": [
+    "Sebagian",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Benign-by-design"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T028": {
+   "kinds": [
+    "http.request"
+   ],
+   "implied": [
+    "Sebagian"
+   ],
+   "div": [
+    "Tidak ada divergensi"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T029": {
+   "kinds": [
+    "http.request"
+   ],
+   "implied": [
+    "Sebagian"
+   ],
+   "div": [
+    "Tidak ada divergensi"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T030": {
+   "kinds": [
+    "http.request"
+   ],
+   "implied": [
+    "Sebagian",
+    "Sebagian"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Tidak ada divergensi"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T031": {
+   "kinds": [
+    "fs.write"
+   ],
+   "implied": [
+    "Tidak"
+   ],
+   "div": [
+    "Tidak tahu"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T032": {
+   "kinds": [
+    "http.request"
+   ],
+   "implied": [
+    "Sebagian"
+   ],
+   "div": [
+    "Benign-by-design"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T033": {
+   "kinds": [
+    "http.request"
+   ],
+   "implied": [
+    "Sebagian"
+   ],
+   "div": [
+    "Benign-by-design"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T034": {
+   "kinds": [
+    "http.request"
+   ],
+   "implied": [
+    "Sebagian"
+   ],
+   "div": [
+    "Benign-by-design"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T035": {
+   "kinds": [
+    "http.request"
+   ],
+   "implied": [
+    "Sebagian"
+   ],
+   "div": [
+    "Tidak ada divergensi"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T036": {
+   "kinds": [
+    "fs.write",
+    "http.request"
+   ],
+   "implied": [
+    "Sebagian",
+    "Ya"
+   ],
+   "div": [
+    "Benign-by-design",
+    "Tidak ada divergensi"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T037": {
+   "kinds": [
+    "fs.write",
+    "http.request"
+   ],
+   "implied": [
+    "Sebagian",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Tidak tahu"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T038": {
+   "kinds": [
+    "fs.delete",
+    "fs.read",
+    "fs.write"
+   ],
+   "implied": [
+    "Ya",
+    "Sebagian",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Relevan keamanan",
+    "Benign-by-design"
+   ],
+   "unread": false,
+   "rows": 3
+  },
+  "T039": {
+   "kinds": [
+    "fs.read",
+    "fs.write"
+   ],
+   "implied": [
+    "Tidak",
+    "Tidak"
+   ],
+   "div": [
+    "Benign-by-design",
+    "Benign-by-design"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T040": {
+   "kinds": [
+    "fs.read",
+    "fs.write"
+   ],
+   "implied": [
+    "Sebagian",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak tahu",
+    "Tidak tahu"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T041": {
+   "kinds": [
+    "fs.list",
+    "fs.read"
+   ],
+   "implied": [
+    "Ya",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Benign-by-design"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T042": {
+   "kinds": [
+    "fs.list",
+    "fs.read",
+    "fs.write"
+   ],
+   "implied": [
+    "Ya",
+    "Sebagian",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Tidak tahu",
+    "Benign-by-design"
+   ],
+   "unread": false,
+   "rows": 3
+  },
+  "T043": {
+   "kinds": [
+    "fs.read"
+   ],
+   "implied": [
+    "Sebagian"
+   ],
+   "div": [
+    "Benign-by-design"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T044": {
+   "kinds": [
+    "fs.read"
+   ],
+   "implied": [
+    "Sebagian"
+   ],
+   "div": [
+    "Benign-by-design"
+   ],
+   "unread": false,
+   "rows": 1
+  },
+  "T045": {
+   "kinds": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Tidak",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Benign-by-design",
+    "Benign-by-design"
+   ],
+   "unread": false,
+   "rows": 3
+  },
+  "T046": {
+   "kinds": [
+    "fs.list",
+    "fs.read"
+   ],
+   "implied": [
+    "Ya",
+    "Sebagian"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Benign-by-design"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T047": {
+   "kinds": [
+    "fs.read",
+    "http.request"
+   ],
+   "implied": [
+    "Sebagian",
+    "Ya",
+    "Sebagian"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Tidak ada divergensi",
+    "Tidak tahu"
+   ],
+   "unread": false,
+   "rows": 3
+  },
+  "T048": {
+   "kinds": [
+    "fs.read",
+    "fs.write"
+   ],
+   "implied": [
+    "Sebagian",
+    "Tidak",
+    "Sebagian"
+   ],
+   "div": [
+    "Benign-by-design",
+    "Benign-by-design",
+    "Benign-by-design"
+   ],
+   "unread": false,
+   "rows": 3
+  },
+  "T049": {
+   "kinds": [
+    "fs.read",
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Sebagian"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Benign-by-design"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T050": {
+   "kinds": [
+    "fs.write",
+    "http.request"
+   ],
+   "implied": [
+    "Sebagian",
+    "Tidak"
+   ],
+   "div": [
+    "Benign-by-design",
+    "Tidak tahu"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T051": {
+   "kinds": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Sebagian",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Benign-by-design",
+    "Benign-by-design"
+   ],
+   "unread": false,
+   "rows": 3
+  },
+  "T052": {
+   "kinds": [
+    "fs.read",
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Tidak tahu"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T053": {
+   "kinds": [
+    "fs.read",
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Tidak tahu"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T054": {
+   "kinds": [
+    "fs.read",
+    "http.request"
+   ],
+   "implied": [
+    "Tidak",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak tahu",
+    "Tidak tahu"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T055": {
+   "kinds": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "implied": [
+    "Sebagian",
+    "Tidak",
+    "Tidak"
+   ],
+   "div": [
+    "Benign-by-design",
+    "Tidak tahu",
+    "Tidak tahu"
+   ],
+   "unread": false,
+   "rows": 3
+  },
+  "T056": {
+   "kinds": [
+    "fs.read"
+   ],
+   "implied": [
+    "Sebagian",
+    "Ya",
+    "Sebagian"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Tidak ada divergensi",
+    "Tidak ada divergensi"
+   ],
+   "unread": false,
+   "rows": 3
+  },
+  "T057": {
+   "kinds": [
+    "fs.delete",
+    "http.request"
+   ],
+   "implied": [
+    "Sebagian",
+    "Tidak"
+   ],
+   "div": [
+    "Benign-by-design",
+    "Benign-by-design"
+   ],
+   "unread": false,
+   "rows": 2
+  },
+  "T058": {
+   "kinds": [
+    "fs.write",
+    "http.request"
+   ],
+   "implied": [
+    "Sebagian",
+    "Tidak",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Benign-by-design",
+    "Benign-by-design"
+   ],
+   "unread": false,
+   "rows": 3
+  },
+  "T059": {
+   "kinds": [
+    "fs.write",
+    "http.request"
+   ],
+   "implied": [
+    "Ya",
+    "Tidak",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Benign-by-design",
+    "Benign-by-design"
+   ],
+   "unread": false,
+   "rows": 3
+  },
+  "T060": {
+   "kinds": [
+    "fs.read",
+    "http.request"
+   ],
+   "implied": [
+    "Sebagian",
+    "Tidak"
+   ],
+   "div": [
+    "Tidak ada divergensi",
+    "Benign-by-design"
+   ],
+   "unread": false,
+   "rows": 2
+  }
+ },
+ "A1": {
+  "T001": {
+   "kinds": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T002": {
+   "kinds": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T003": {
+   "kinds": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T004": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T005": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T006": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T007": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T008": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T009": {
+   "kinds": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T010": {
+   "kinds": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T011": {
+   "kinds": [
+    "fs.read",
+    "fs.write"
+   ],
+   "hidden": "Tidak"
+  },
+  "T012": {
+   "kinds": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T013": {
+   "kinds": [
+    "fs.read"
+   ],
+   "hidden": "Tidak"
+  },
+  "T014": {
+   "kinds": [
+    "fs.list"
+   ],
+   "hidden": "Ya"
+  },
+  "T015": {
+   "kinds": [
+    "fs.read"
+   ],
+   "hidden": "Ya"
+  },
+  "T016": {
+   "kinds": [
+    "fs.write"
+   ],
+   "hidden": "Ya"
+  },
+  "T017": {
+   "kinds": [
+    "fs.read",
+    "fs.write"
+   ],
+   "hidden": "Tidak"
+  },
+  "T018": {
+   "kinds": [
+    "fs.write"
+   ],
+   "hidden": "Ya"
+  },
+  "T019": {
+   "kinds": [
+    "fs.read",
+    "fs.write"
+   ],
+   "hidden": "Ya"
+  },
+  "T020": {
+   "kinds": [
+    "fs.list",
+    "fs.read"
+   ],
+   "hidden": "Ya"
+  },
+  "T021": {
+   "kinds": [
+    "fs.list",
+    "fs.read"
+   ],
+   "hidden": "Ya"
+  },
+  "T022": {
+   "kinds": [
+    "fs.write"
+   ],
+   "hidden": "Ya"
+  },
+  "T023": {
+   "kinds": [
+    "fs.read",
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T024": {
+   "kinds": [
+    "fs.read",
+    "fs.write"
+   ],
+   "hidden": "Ya"
+  },
+  "T025": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T026": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T027": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T028": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T029": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T030": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T031": {
+   "kinds": [],
+   "hidden": "Tidak"
+  },
+  "T032": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T033": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T034": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T035": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T036": {
+   "kinds": [
+    "fs.write",
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T037": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T038": {
+   "kinds": [
+    "fs.read",
+    "fs.write"
+   ],
+   "hidden": "Ya"
+  },
+  "T039": {
+   "kinds": [
+    "fs.read",
+    "fs.write"
+   ],
+   "hidden": "Ya"
+  },
+  "T040": {
+   "kinds": [
+    "fs.read",
+    "fs.write"
+   ],
+   "hidden": "Ya"
+  },
+  "T041": {
+   "kinds": [
+    "fs.read",
+    "fs.write"
+   ],
+   "hidden": "Ya"
+  },
+  "T042": {
+   "kinds": [
+    "fs.read",
+    "fs.write"
+   ],
+   "hidden": "Ya"
+  },
+  "T043": {
+   "kinds": [],
+   "hidden": "Tidak"
+  },
+  "T044": {
+   "kinds": [],
+   "hidden": "Tidak"
+  },
+  "T045": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T046": {
+   "kinds": [
+    "fs.list",
+    "fs.read"
+   ],
+   "hidden": "Ya"
+  },
+  "T047": {
+   "kinds": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T048": {
+   "kinds": [],
+   "hidden": "Tidak"
+  },
+  "T049": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T050": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T051": {
+   "kinds": [
+    "fs.write",
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T052": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T053": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T054": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T055": {
+   "kinds": [
+    "fs.read"
+   ],
+   "hidden": "Tidak"
+  },
+  "T056": {
+   "kinds": [
+    "fs.read"
+   ],
+   "hidden": "Tidak"
+  },
+  "T057": {
+   "kinds": [
+    "fs.delete"
+   ],
+   "hidden": "Ya"
+  },
+  "T058": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T059": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T060": {
+   "kinds": [
+    "fs.read",
+    "http.request"
+   ],
+   "hidden": "Ya"
+  }
+ },
+ "A2": {
+  "T001": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Tidak"
+  },
+  "T002": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Tidak"
+  },
+  "T003": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Tidak"
+  },
+  "T004": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Tidak"
+  },
+  "T005": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Tidak"
+  },
+  "T006": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Tidak"
+  },
+  "T007": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T008": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T009": {
+   "kinds": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T010": {
+   "kinds": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T011": {
+   "kinds": [
+    "fs.read",
+    "fs.write"
+   ],
+   "hidden": "Tidak"
+  },
+  "T012": {
+   "kinds": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T013": {
+   "kinds": [
+    "fs.read"
+   ],
+   "hidden": "Tidak"
+  },
+  "T014": {
+   "kinds": [
+    "fs.list"
+   ],
+   "hidden": "Ya"
+  },
+  "T015": {
+   "kinds": [
+    "fs.read"
+   ],
+   "hidden": "Tidak"
+  },
+  "T016": {
+   "kinds": [
+    "fs.write"
+   ],
+   "hidden": "Tidak"
+  },
+  "T017": {
+   "kinds": [
+    "fs.read",
+    "fs.write"
+   ],
+   "hidden": "Tidak"
+  },
+  "T018": {
+   "kinds": [
+    "fs.write"
+   ],
+   "hidden": "Ya"
+  },
+  "T019": {
+   "kinds": [
+    "fs.read",
+    "fs.write"
+   ],
+   "hidden": "Ya"
+  },
+  "T020": {
+   "kinds": [
+    "fs.read"
+   ],
+   "hidden": "Ya"
+  },
+  "T021": {
+   "kinds": [
+    "fs.read"
+   ],
+   "hidden": "Ya"
+  },
+  "T022": {
+   "kinds": [
+    "fs.write"
+   ],
+   "hidden": "Ya"
+  },
+  "T023": {
+   "kinds": [
+    "fs.read",
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T024": {
+   "kinds": [
+    "fs.read",
+    "fs.write"
+   ],
+   "hidden": "Ya"
+  },
+  "T025": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T026": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T027": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T028": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T029": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T030": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T031": {
+   "kinds": [],
+   "hidden": "Tidak"
+  },
+  "T032": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T033": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T034": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T035": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Tidak"
+  },
+  "T036": {
+   "kinds": [
+    "fs.write",
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T037": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Tidak"
+  },
+  "T038": {
+   "kinds": [
+    "fs.write",
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T039": {
+   "kinds": [
+    "fs.read",
+    "fs.write"
+   ],
+   "hidden": "Ya"
+  },
+  "T040": {
+   "kinds": [
+    "fs.read",
+    "fs.write"
+   ],
+   "hidden": "Ya"
+  },
+  "T041": {
+   "kinds": [
+    "fs.read",
+    "fs.write"
+   ],
+   "hidden": "Ya"
+  },
+  "T042": {
+   "kinds": [
+    "fs.read",
+    "fs.write"
+   ],
+   "hidden": "Ya"
+  },
+  "T043": {
+   "kinds": [],
+   "hidden": "Tidak"
+  },
+  "T044": {
+   "kinds": [],
+   "hidden": "Tidak"
+  },
+  "T045": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T046": {
+   "kinds": [
+    "fs.list",
+    "fs.read"
+   ],
+   "hidden": "Ya"
+  },
+  "T047": {
+   "kinds": [
+    "fs.read"
+   ],
+   "hidden": "Tidak"
+  },
+  "T048": {
+   "kinds": [
+    "fs.read"
+   ],
+   "hidden": "Ya"
+  },
+  "T049": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T050": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T051": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Tidak"
+  },
+  "T052": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Tidak"
+  },
+  "T053": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Tidak"
+  },
+  "T054": {
+   "kinds": [
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T055": {
+   "kinds": [
+    "fs.read"
+   ],
+   "hidden": "Tidak"
+  },
+  "T056": {
+   "kinds": [
+    "fs.read"
+   ],
+   "hidden": "Tidak"
+  },
+  "T057": {
+   "kinds": [
+    "fs.delete",
+    "fs.list"
+   ],
+   "hidden": "Ya"
+  },
+  "T058": {
+   "kinds": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T059": {
+   "kinds": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "hidden": "Ya"
+  },
+  "T060": {
+   "kinds": [
+    "fs.read"
+   ],
+   "hidden": "Ya"
+  }
+ }
+}

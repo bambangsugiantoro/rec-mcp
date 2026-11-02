@@ -1,0 +1,28 @@
+microsoft/markitdown                          tools=  1 sites=  0 0.01s
+FI-Mihej/text_file_read_and_refactor_mcp     tools=  0 sites=  0 0.02s
+velyan/pdf-card-mcp                        tools=  3 sites=  3 0.21s
+bzsanti/oxidize-python                      tools= 12 sites= 12 0.25s
+Cohexa-ai/agent-coherence                     tools= 10 sites=  1 1.52s
+jeannier/homebrew-mcp                        tools=  0 sites=  0 0.0s
+cyberchitta/llm-context.py                      tools=  5 sites= 22 0.13s
+Xuanwo/mcp-server-opendal                  tools=  3 sites=  0 0.01s
+TimurRakhmatullin86/mcp-drill                           tools=  0 sites=  0 0.02s
+XixianLiang/HarmonyOS-mcp-server                tools=  0 sites=  0 0.01s
+appcreationsca/bumpguard-mcp                       tools=  6 sites=  0 0.06s
+MnemeHQ/mneme                               tools=  6 sites=  0 1.4s
+Neverlow512/agent-droid-bridge                  tools= 23 sites=  0 0.07s
+hidai25/eval-view                           tools=  4 sites=  0 1.05s
+timgordontg/engrim                              tools=  0 sites=  0 0.13s
+Patdolitse/piia-engram                         tools= 59 sites=328 3.85s
+TeleAI-UAGI/telemem                             tools= 11 sites= 18 0.32s
+labyrinth-analytics/loredocs                            tools= 53 sites=513 0.9s
+ChevalGrand520/local-gpu-imagegen                  tools=  0 sites=  0 0.37s
+nyxn-ai/NyxDocs                             tools=  8 sites=  0 0.05s
+jlucasmcrell/apify-scrapers                      tools=  6 sites=  6 0.1s
+JerryLiu369/agent-web-search                    tools=  0 sites=  0 0.06s
+AG-Bureau/mcp-search                          tools=  0 sites=  0 0.19s
+ak10082247-max/stealthguard-402                    tools=  0 sites=  0 0.12s
+DareDev256/fcpxml-mcp-server                   tools=  0 sites=  0 0.5s
+guaardvark/guaardvark                          tools=  0 sites=  0 7.74s
+chaoz23/loudcheck                           tools=  2 sites=  0 0.06s
+Cassette-Editor/oh-my-cassette                      tools=  0 sites=  0 0.15s

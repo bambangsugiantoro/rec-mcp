@@ -1,0 +1,1106 @@
+{
+ "summary": {
+  "n_tools": 60,
+  "kind_tp": 41,
+  "kind_fp": 12,
+  "kind_fn": 46,
+  "precision": 0.774,
+  "recall": 0.471,
+  "tools_kind_divergence": 10,
+  "tools_kind_div_and_flagged": 10,
+  "tools_security_relevant_by_either": 7,
+  "tools_security_relevant_by_both": 0,
+  "analyzer_no_sites": 12
+ },
+ "rows": [
+  {
+   "id": "T001",
+   "repo": "AIops-tools/Ceph-AIops",
+   "tool": "rbd_image_delete",
+   "gold": [
+    "fs.write",
+    "http.request"
+   ],
+   "schema_expected": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "extra": [],
+   "analyzer": [
+    "fs.read"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T002",
+   "repo": "AIops-tools/Ceph-AIops",
+   "tool": "rbd_ls",
+   "gold": [
+    "fs.write",
+    "http.request"
+   ],
+   "schema_expected": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "extra": [],
+   "analyzer": [
+    "fs.read"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T003",
+   "repo": "AIops-tools/Ceph-AIops",
+   "tool": "trigger_deep_scrub",
+   "gold": [
+    "fs.write",
+    "http.request"
+   ],
+   "schema_expected": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "extra": [],
+   "analyzer": [
+    "fs.read"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T004",
+   "repo": "ArturLys/ao3-mcp",
+   "tool": "find_tags",
+   "gold": [
+    "http.request"
+   ],
+   "schema_expected": [
+    "http.request"
+   ],
+   "extra": [],
+   "analyzer": [],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T005",
+   "repo": "ArturLys/ao3-mcp",
+   "tool": "get_work",
+   "gold": [
+    "http.request"
+   ],
+   "schema_expected": [
+    "http.request"
+   ],
+   "extra": [],
+   "analyzer": [],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T006",
+   "repo": "ArturLys/ao3-mcp",
+   "tool": "get_work_text",
+   "gold": [
+    "http.request"
+   ],
+   "schema_expected": [
+    "http.request"
+   ],
+   "extra": [],
+   "analyzer": [],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T007",
+   "repo": "Danielpeter-99/calcom-mcp",
+   "tool": "create_booking",
+   "gold": [
+    "http.request"
+   ],
+   "schema_expected": [
+    "http.request"
+   ],
+   "extra": [],
+   "analyzer": [
+    "http.request"
+   ],
+   "sec_b1": false,
+   "sec_b2": true
+  },
+  {
+   "id": "T008",
+   "repo": "Danielpeter-99/calcom-mcp",
+   "tool": "list_webhooks",
+   "gold": [
+    "http.request"
+   ],
+   "schema_expected": [
+    "http.request"
+   ],
+   "extra": [],
+   "analyzer": [
+    "http.request"
+   ],
+   "sec_b1": false,
+   "sec_b2": true
+  },
+  {
+   "id": "T009",
+   "repo": "DataEval/dingo",
+   "tool": "run_dingo_evaluation",
+   "gold": [
+    "fs.read",
+    "fs.write"
+   ],
+   "schema_expected": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "extra": [],
+   "analyzer": [
+    "fs.list",
+    "fs.read",
+    "fs.write"
+   ],
+   "sec_b1": true,
+   "sec_b2": false
+  },
+  {
+   "id": "T010",
+   "repo": "DataEval/dingo",
+   "tool": "run_quick_evaluation",
+   "gold": [
+    "fs.read",
+    "fs.write"
+   ],
+   "schema_expected": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "extra": [],
+   "analyzer": [
+    "fs.list",
+    "fs.read",
+    "fs.write"
+   ],
+   "sec_b1": true,
+   "sec_b2": false
+  },
+  {
+   "id": "T011",
+   "repo": "Fulcrum-Enterprises/verify-proof",
+   "tool": "add_receipt_step",
+   "gold": [
+    "fs.read",
+    "fs.write"
+   ],
+   "schema_expected": [
+    "fs.read",
+    "fs.write"
+   ],
+   "extra": [],
+   "analyzer": [
+    "fs.read"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T012",
+   "repo": "Fulcrum-Enterprises/verify-proof",
+   "tool": "anchor_run_receipt",
+   "gold": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "schema_expected": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "extra": [],
+   "analyzer": [
+    "fs.read"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T013",
+   "repo": "Fulcrum-Enterprises/verify-proof",
+   "tool": "compute_file_hash",
+   "gold": [
+    "fs.read"
+   ],
+   "schema_expected": [
+    "fs.read"
+   ],
+   "extra": [],
+   "analyzer": [
+    "fs.read"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T014",
+   "repo": "HanSur94/matlab-mcp-server-python",
+   "tool": "list_files",
+   "gold": [
+    "fs.list"
+   ],
+   "schema_expected": [
+    "fs.list"
+   ],
+   "extra": [],
+   "analyzer": [
+    "fs.list"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T015",
+   "repo": "HanSur94/matlab-mcp-server-python",
+   "tool": "read_image",
+   "gold": [
+    "fs.read"
+   ],
+   "schema_expected": [
+    "fs.read"
+   ],
+   "extra": [],
+   "analyzer": [
+    "fs.read"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T016",
+   "repo": "HanSur94/matlab-mcp-server-python",
+   "tool": "upload_data",
+   "gold": [
+    "fs.write"
+   ],
+   "schema_expected": [
+    "fs.write"
+   ],
+   "extra": [],
+   "analyzer": [
+    "fs.write"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T017",
+   "repo": "SecurityRonin/docx-mcp",
+   "tool": "create_from_markdown",
+   "gold": [
+    "fs.read",
+    "fs.write"
+   ],
+   "schema_expected": [
+    "fs.read",
+    "fs.write"
+   ],
+   "extra": [],
+   "analyzer": [
+    "fs.read"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T018",
+   "repo": "SecurityRonin/docx-mcp",
+   "tool": "save_document",
+   "gold": [
+    "fs.write"
+   ],
+   "schema_expected": [
+    "fs.write"
+   ],
+   "extra": [],
+   "analyzer": [],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T019",
+   "repo": "TT-Wang/cortex-plugin",
+   "tool": "memory_save",
+   "gold": [
+    "fs.read",
+    "fs.write"
+   ],
+   "schema_expected": [
+    "fs.read",
+    "fs.write"
+   ],
+   "extra": [],
+   "analyzer": [
+    "fs.delete",
+    "fs.list",
+    "fs.read",
+    "fs.write"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T020",
+   "repo": "abhishekash/spanhound",
+   "tool": "approval_log",
+   "gold": [
+    "fs.read"
+   ],
+   "schema_expected": [
+    "fs.list",
+    "fs.read"
+   ],
+   "extra": [],
+   "analyzer": [
+    "fs.list",
+    "fs.read"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T021",
+   "repo": "abhishekash/spanhound",
+   "tool": "tool_stats",
+   "gold": [
+    "fs.read"
+   ],
+   "schema_expected": [
+    "fs.list",
+    "fs.read"
+   ],
+   "extra": [],
+   "analyzer": [
+    "fs.list",
+    "fs.read"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T022",
+   "repo": "agentic-mcp-tools/memora",
+   "tool": "memory_create_section",
+   "gold": [
+    "fs.write",
+    "http.request"
+   ],
+   "schema_expected": [
+    "fs.write"
+   ],
+   "extra": [
+    "http.request"
+   ],
+   "analyzer": [
+    "fs.list"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T023",
+   "repo": "agentic-mcp-tools/memora",
+   "tool": "memory_digest",
+   "gold": [
+    "fs.read"
+   ],
+   "schema_expected": [
+    "fs.read",
+    "http.request"
+   ],
+   "extra": [],
+   "analyzer": [
+    "fs.list"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T024",
+   "repo": "agentic-mcp-tools/memora",
+   "tool": "memory_merge",
+   "gold": [
+    "fs.write",
+    "http.request"
+   ],
+   "schema_expected": [
+    "fs.read",
+    "fs.write"
+   ],
+   "extra": [
+    "http.request"
+   ],
+   "analyzer": [
+    "fs.list"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T025",
+   "repo": "aywengo/kafka-schema-reg-mcp",
+   "tool": "clear_multiple_contexts_batch",
+   "gold": [
+    "http.request"
+   ],
+   "schema_expected": [
+    "http.request"
+   ],
+   "extra": [],
+   "analyzer": [],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T026",
+   "repo": "aywengo/kafka-schema-reg-mcp",
+   "tool": "list_subjects",
+   "gold": [
+    "http.request"
+   ],
+   "schema_expected": [
+    "http.request"
+   ],
+   "extra": [],
+   "analyzer": [
+    "http.request"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T027",
+   "repo": "aywengo/kafka-schema-reg-mcp",
+   "tool": "register_schema_interactive",
+   "gold": [
+    "http.request"
+   ],
+   "schema_expected": [
+    "http.request"
+   ],
+   "extra": [],
+   "analyzer": [
+    "http.request"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T028",
+   "repo": "datalayer/jupyter-mcp-server",
+   "tool": "clear_cell_output",
+   "gold": [
+    "http.request"
+   ],
+   "schema_expected": [
+    "http.request"
+   ],
+   "extra": [],
+   "analyzer": [
+    "fs.read"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T029",
+   "repo": "datalayer/jupyter-mcp-server",
+   "tool": "delete_cell",
+   "gold": [
+    "http.request"
+   ],
+   "schema_expected": [
+    "http.request"
+   ],
+   "extra": [],
+   "analyzer": [
+    "fs.read"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T030",
+   "repo": "datalayer/jupyter-mcp-server",
+   "tool": "execute_cell",
+   "gold": [
+    "http.request"
+   ],
+   "schema_expected": [
+    "http.request"
+   ],
+   "extra": [],
+   "analyzer": [
+    "fs.read"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T031",
+   "repo": "foretak/registry-mcp",
+   "tool": "validate_company_id",
+   "gold": [
+    "fs.write"
+   ],
+   "schema_expected": [],
+   "extra": [
+    "fs.write"
+   ],
+   "analyzer": [],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T032",
+   "repo": "fosdickio/binary_ninja_mcp",
+   "tool": "list_data_items",
+   "gold": [
+    "http.request"
+   ],
+   "schema_expected": [
+    "http.request"
+   ],
+   "extra": [],
+   "analyzer": [
+    "http.request"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T033",
+   "repo": "fosdickio/binary_ninja_mcp",
+   "tool": "list_strings",
+   "gold": [
+    "http.request"
+   ],
+   "schema_expected": [
+    "http.request"
+   ],
+   "extra": [],
+   "analyzer": [
+    "http.request"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T034",
+   "repo": "fosdickio/binary_ninja_mcp",
+   "tool": "rename_data",
+   "gold": [
+    "http.request"
+   ],
+   "schema_expected": [
+    "http.request"
+   ],
+   "extra": [],
+   "analyzer": [
+    "http.request"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T035",
+   "repo": "hanselhansel/aeo-cli",
+   "tool": "compare",
+   "gold": [
+    "http.request"
+   ],
+   "schema_expected": [
+    "http.request"
+   ],
+   "extra": [],
+   "analyzer": [
+    "http.request"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T036",
+   "repo": "hanselhansel/aeo-cli",
+   "tool": "generate_batch_tool",
+   "gold": [
+    "fs.write",
+    "http.request"
+   ],
+   "schema_expected": [
+    "fs.write",
+    "http.request"
+   ],
+   "extra": [],
+   "analyzer": [
+    "fs.write"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T037",
+   "repo": "hanselhansel/aeo-cli",
+   "tool": "recommend",
+   "gold": [
+    "http.request"
+   ],
+   "schema_expected": [
+    "http.request"
+   ],
+   "extra": [],
+   "analyzer": [
+    "http.request"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T038",
+   "repo": "hyperb1iss/droidmind",
+   "tool": "android_diag",
+   "gold": [
+    "fs.delete",
+    "fs.write"
+   ],
+   "schema_expected": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "extra": [
+    "fs.delete"
+   ],
+   "analyzer": [
+    "fs.write"
+   ],
+   "sec_b1": false,
+   "sec_b2": true
+  },
+  {
+   "id": "T039",
+   "repo": "johannesbrandenburger/typst-mcp",
+   "tool": "latex_snippets_to_typst",
+   "gold": [
+    "fs.read",
+    "fs.write"
+   ],
+   "schema_expected": [
+    "fs.read",
+    "fs.write"
+   ],
+   "extra": [],
+   "analyzer": [
+    "fs.read",
+    "fs.write"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T040",
+   "repo": "kimimgo/viznoir",
+   "tool": "auto_postprocess",
+   "gold": [
+    "fs.read",
+    "fs.write"
+   ],
+   "schema_expected": [
+    "fs.read",
+    "fs.write"
+   ],
+   "extra": [],
+   "analyzer": [
+    "fs.list"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T041",
+   "repo": "kimimgo/viznoir",
+   "tool": "contour",
+   "gold": [
+    "fs.list",
+    "fs.read"
+   ],
+   "schema_expected": [
+    "fs.read",
+    "fs.write"
+   ],
+   "extra": [
+    "fs.list"
+   ],
+   "analyzer": [
+    "fs.list",
+    "fs.read",
+    "fs.write"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T042",
+   "repo": "kimimgo/viznoir",
+   "tool": "volume_render",
+   "gold": [
+    "fs.read",
+    "fs.write"
+   ],
+   "schema_expected": [
+    "fs.read",
+    "fs.write"
+   ],
+   "extra": [],
+   "analyzer": [
+    "fs.list"
+   ],
+   "sec_b1": true,
+   "sec_b2": false
+  },
+  {
+   "id": "T043",
+   "repo": "laszlopere/mcp-molecules",
+   "tool": "isotope_distribution",
+   "gold": [
+    "fs.read"
+   ],
+   "schema_expected": [],
+   "extra": [
+    "fs.read"
+   ],
+   "analyzer": [
+    "fs.read"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T044",
+   "repo": "laszlopere/mcp-molecules",
+   "tool": "molecular_weight_calculator",
+   "gold": [
+    "fs.read"
+   ],
+   "schema_expected": [],
+   "extra": [
+    "fs.read"
+   ],
+   "analyzer": [
+    "fs.read"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T045",
+   "repo": "mohitbadwal/ringback",
+   "tool": "call_start",
+   "gold": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "schema_expected": [
+    "http.request"
+   ],
+   "extra": [
+    "fs.read",
+    "fs.write"
+   ],
+   "analyzer": [],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T046",
+   "repo": "ntworm/ableton-mcp-server",
+   "tool": "get_ableton_logs",
+   "gold": [
+    "fs.read"
+   ],
+   "schema_expected": [
+    "fs.list",
+    "fs.read"
+   ],
+   "extra": [],
+   "analyzer": [
+    "fs.list",
+    "fs.read"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T047",
+   "repo": "robotel-limited/robo-cortex",
+   "tool": "verify_evidence_tool",
+   "gold": [
+    "fs.read",
+    "http.request"
+   ],
+   "schema_expected": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "extra": [],
+   "analyzer": [
+    "http.request"
+   ],
+   "sec_b1": true,
+   "sec_b2": false
+  },
+  {
+   "id": "T048",
+   "repo": "sebastienrousseau/pacs008-mcp",
+   "tool": "generate_message",
+   "gold": [
+    "fs.read",
+    "fs.write"
+   ],
+   "schema_expected": [
+    "fs.read"
+   ],
+   "extra": [
+    "fs.write"
+   ],
+   "analyzer": [
+    "fs.write"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T049",
+   "repo": "segentic-lab/periscope-mcp",
+   "tool": "handle_get_page_elements",
+   "gold": [
+    "http.request"
+   ],
+   "schema_expected": [
+    "http.request"
+   ],
+   "extra": [],
+   "analyzer": [],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T050",
+   "repo": "segentic-lab/periscope-mcp",
+   "tool": "handle_select_option",
+   "gold": [
+    "http.request"
+   ],
+   "schema_expected": [
+    "http.request"
+   ],
+   "extra": [],
+   "analyzer": [
+    "fs.write"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T051",
+   "repo": "segentic-lab/periscope-mcp",
+   "tool": "handle_test_url",
+   "gold": [
+    "fs.write",
+    "http.request"
+   ],
+   "schema_expected": [
+    "fs.write",
+    "http.request"
+   ],
+   "extra": [],
+   "analyzer": [],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T052",
+   "repo": "smaniches/semantic-scholar-mcp",
+   "tool": "bulk_search",
+   "gold": [
+    "http.request"
+   ],
+   "schema_expected": [
+    "http.request"
+   ],
+   "extra": [],
+   "analyzer": [
+    "http.request"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T053",
+   "repo": "smaniches/semantic-scholar-mcp",
+   "tool": "get_author_batch",
+   "gold": [
+    "http.request"
+   ],
+   "schema_expected": [
+    "http.request"
+   ],
+   "extra": [],
+   "analyzer": [
+    "http.request"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T054",
+   "repo": "smaniches/semantic-scholar-mcp",
+   "tool": "server_status",
+   "gold": [
+    "http.request"
+   ],
+   "schema_expected": [
+    "http.request"
+   ],
+   "extra": [],
+   "analyzer": [
+    "http.request"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T055",
+   "repo": "trakshan-mishra/Diffcontext",
+   "tool": "explain_selection",
+   "gold": [
+    "fs.read"
+   ],
+   "schema_expected": [
+    "fs.read"
+   ],
+   "extra": [],
+   "analyzer": [
+    "fs.read",
+    "fs.write"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T056",
+   "repo": "trakshan-mishra/Diffcontext",
+   "tool": "verify_retrieval",
+   "gold": [
+    "fs.read"
+   ],
+   "schema_expected": [
+    "fs.read"
+   ],
+   "extra": [],
+   "analyzer": [
+    "fs.read",
+    "fs.write"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T057",
+   "repo": "vitorpavinato/ncbi-mcp-server",
+   "tool": "clear_cache",
+   "gold": [
+    "fs.delete",
+    "http.request"
+   ],
+   "schema_expected": [
+    "fs.delete",
+    "fs.list"
+   ],
+   "extra": [
+    "http.request"
+   ],
+   "analyzer": [],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T058",
+   "repo": "vitorpavinato/ncbi-mcp-server",
+   "tool": "search_mesh_terms",
+   "gold": [
+    "fs.write",
+    "http.request"
+   ],
+   "schema_expected": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "extra": [],
+   "analyzer": [],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T059",
+   "repo": "vitorpavinato/ncbi-mcp-server",
+   "tool": "search_pubmed",
+   "gold": [
+    "fs.write",
+    "http.request"
+   ],
+   "schema_expected": [
+    "fs.read",
+    "fs.write",
+    "http.request"
+   ],
+   "extra": [],
+   "analyzer": [],
+   "sec_b1": false,
+   "sec_b2": false
+  },
+  {
+   "id": "T060",
+   "repo": "xsf0221/pattern-vista-cli",
+   "tool": "deviation_ranking",
+   "gold": [
+    "fs.read",
+    "http.request"
+   ],
+   "schema_expected": [
+    "fs.read",
+    "http.request"
+   ],
+   "extra": [],
+   "analyzer": [
+    "fs.read"
+   ],
+   "sec_b1": false,
+   "sec_b2": false
+  }
+ ]
+}

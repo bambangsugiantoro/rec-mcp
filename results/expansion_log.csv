@@ -1,0 +1,75 @@
+rank,repo,category,commit,included,reason,tools,sites
+1,paipaipai666/nexus-browser-mcp,browser-automation,9501512bf9c067b04a95ea726d5f1523a7d15576,1,included,1,1
+2,logly/mureo,marketing,8fc6be271a400faad2647c6758d5c21ab9f9ab6d,0,I2: no decorated/registered Python MCP tool,0,0
+3,Osseni94/oyemi-mcp,data-platforms,c11a3427c7751db3c5b092d1c235cd1ad480e725,0,I3: no file/HTTP site reachable,7,0
+4,espressif/esp-rainmaker-mcp,cloud-platforms,afb272e20ed69ad8f53616063b75195d16cd0be5,0,I3: no file/HTTP site reachable,13,0
+5,SecretiveShell/MCP-timeserver,location-services,95ae3adf76193c08396618aabb6dcf38e10b1cff,0,I2: no decorated/registered Python MCP tool,0,0
+6,musharna/data-aggregator-mcp,research,95eae9402b9b94aef8713c392bc649ed2edf933a,0,I2: no decorated/registered Python MCP tool,0,0
+7,AgentHotspot/agenthotspot-mcp,aggregators,35a625e89b01d929109a25b2a2399114a4ab7cca,1,included,1,1
+8,wende/cicada,coding-agents,5fbd6263502050556c50d4f58ef71b0803217033,0,I2: no decorated/registered Python MCP tool,0,0
+9,Poll-The-People/customgpt-mcp,RAG,de2ef63d518a4bc6c34e421db98cd315c42623dd,0,I3: no file/HTTP site reachable,50,0
+10,yangkyeongmo/mcp-server-apache-airflow,developer-tools,642dab3efe6458e32b6384d24dffa2ab3d5e0bf3,0,I2: no decorated/registered Python MCP tool,0,0
+11,laszlopere/mcp-molecules,research,9955d2e387108bcb59a809d6f5397bc418872944,1,included,5,1
+12,hanselhansel/aeo-cli,search,464c5b9f044121dbaccb3d587ac8d26514c54edb,1,included,12,38
+13,gbatistuta0/appfactory,developer-tools,,0,I1: clone failed,0,0
+14,kimimgo/viznoir,research,e3255c0d2c5bbbc009c56930b889907a026c4bea,1,included,24,57
+15,SecurityRonin/docx-mcp,knowledge--memory,9c0c0b7694d8123e82fe6b7c480899890dca0695,1,included,219,43
+16,zilliztech/mcp-server-milvus,databases,6a2bff91fa629c0e62581be46ae7abba78f3a2c1,1,included,14,1
+17,smaniches/semantic-scholar-mcp,research,b1f3b17f73cc5274a3c3f360f72e53f7ff72d071,1,included,14,34
+18,webcoderz/MCP-Geo,location-services,971996bd681aeed3c63a56694647f996cc6d1697,0,I3: no file/HTTP site reachable,7,0
+19,lagaam-ai/lagaam,databases,a734fa8991f769daaead98c5b83c697b949537dc,0,I3: no file/HTTP site reachable,3,0
+20,traceloop/opentelemetry-mcp-server.git,finance--fintech,,0,I1: clone failed,0,0
+21,sifter-ai/sifter,search,8036a7abe81bcc98ad60a73d1de404a43863f024,1,included,15,9
+22,CTRLRun/ctrlrun,security,3f97ed8eddbeeb24935501ea4be0d411ed1ec31d,0,I2: no decorated/registered Python MCP tool,0,0
+23,agentic-mcp-tools/memora,knowledge--memory,442ca1b4ef494c256917ecd052dedb872710e84a,1,included,44,270
+24,Acacian/aegis,security,134580e37190ed9297a245eb3c902972ca9bb334,0,I3: no file/HTTP site reachable,5,0
+25,mohitbadwal/ringback,communication,dfadf47ef5f106079cb11d48daaa4da39825e140,1,included,10,20
+26,foretak/registry-mcp,finance--fintech,1aba1ffcc82c1d660a63d7e639dc1a3e9976767a,1,included,7,8
+27,ArturLys/ao3-mcp,art-and-culture,3e596e5706195857774cc0c9b3d759362971ad1c,1,included,5,11
+28,TT-Wang/cortex-plugin,knowledge--memory,0557c440a5f5a26b9153f64b84d4b7fda1fc3b22,1,included,6,25
+29,aywengo/kafka-schema-reg-mcp,data-platforms,6c1ad5475012a38d915129b3c13f4cb577b3b5e6,1,included,78,85
+30,vectorize-io/hindsight,knowledge--memory,bc5ea195a0fed1346ff171a5780bbb72a38c89c8,1,included,84,262
+31,akkireddy-challa/k8s-mcp-server,cloud-platforms,d5f21fee50abc22a1306189881f84b2d31918888,0,I3: no file/HTTP site reachable,5,0
+32,abhishekash/spanhound,monitoring,5991bdab7f0a16decdf5824488af1183f6c87bcf,1,included,12,32
+33,Fulcrum-Enterprises/verify-proof,cryptography,e44936a931d7e675da3961a4c5e18b2eda222bd4,1,included,12,28
+34,human-beyond/mainbook-mcp,finance--fintech,ed3e9470a4d13fe83acbd2240fd6ad8102b84218,0,I3: no file/HTTP site reachable,5,0
+35,linklore/linklore-mcp,knowledge--memory,10d304a2296a43a80dde8b7eb649dab0fb6c49c3,0,I2: no decorated/registered Python MCP tool,0,0
+36,fosdickio/binary_ninja_mcp,security,8c5134ee46e2bf44f9a4d846bd971c3e39b3e306,1,included,56,134
+37,dwgx/SmartCLI,command-line,24da9834686e4df7625a0096cb281567c4824042,0,I2: no decorated/registered Python MCP tool,0,0
+38,vitorpavinato/ncbi-mcp-server,search,7cf3817ba06f21a234479fb085e6245a05da761b,1,included,12,31
+39,mishan/shotbox,accessibility,37562d9552db1d6f4952df5ebeb3bdafbf61322e,0,I2: no decorated/registered Python MCP tool,0,0
+40,paultaki/ailooplibrary-mcp,knowledge--memory,1cbdc2cef99e88882f47651ead66582e2ba8b2ed,0,I2: no decorated/registered Python MCP tool,0,0
+41,AIops-tools/Ceph-AIops,cloud-platforms,bdd49672bbbfdfe70915ea79d53672f12c099fa6,1,included,37,167
+42,jaimenbell/mcp-factory,developer-tools,65126fbe6bbf7bd8b36688118c35e408105ccfd2,0,I2: no decorated/registered Python MCP tool,0,0
+43,xsf0221/pattern-vista-cli,finance--fintech,f6a984d292b80b49d54f87168575fc5e5779abee,1,included,5,5
+44,Danielpeter-99/calcom-mcp,communication,c457fb0f7ae014fb07888e02d86fa83811989c3d,1,included,8,7
+45,robotel-limited/robo-cortex,knowledge--memory,5d1f2ba058ea1dd00ab5debbacd7dd250a6b7c72,1,included,8,3
+46,loudreader/loudkit,text-to-speech,afac15a0d75335d197ae993ed674987d6447c7ae,1,included,3,2
+47,MarceauSolutions/md-to-pdf-mcp,file-systems,51d27f96cee10bdfdc877d5a82d1f237ede1784e,0,I2: no decorated/registered Python MCP tool,0,0
+48,claimidx/claimidx,coding-agents,213d338f6faeaecdee2460133a1a0b1e76893483,0,I2: no decorated/registered Python MCP tool,0,0
+49,cstamigo-droid/signal-scanner,finance--fintech,c2e0f46ab2594208241f707cc9de81fde5250820,1,included,1,1
+50,OSOJDJD/deeplook,finance--fintech,a2426bbca0065f6d51b0dcf04683364d2eca6bbd,1,included,3,90
+51,aurumflux20/seal,security,42594741ca56e86962e2a82121517a7ab484538d,0,I2: no decorated/registered Python MCP tool,0,0
+52,datalayer/jupyter-mcp-server,data-science-tools,ec66cb82f10b4eb37c98120db665f942bccec628,1,included,18,7
+53,librejustice/librejustice,legal,ca1d06062ec4bb2cb332b0e9d41a45309fa3ad75,0,I2: no decorated/registered Python MCP tool,0,0
+54,pythonanywhere/pythonanywhere-mcp-server,cloud-platforms,269ded249241ddd4b86e2e57652faacfe226c3d1,0,I3: no file/HTTP site reachable,20,0
+55,johannesbrandenburger/typst-mcp,other-tools-and-integrations,c9a1d897712540db5d7a4147f0d648504b4fc246,1,included,8,9
+56,nmhaaa3218/TuViMCP,spirituality-and-esoterica,039b2270457536976c7dfd374e8d40fd19d8c246,1,included,4,6
+57,seleniumboot/selenium-mcp,browser-automation,39d199d3dcc3b2cde427db2b76fb3c45ad6d5100,0,I2: no decorated/registered Python MCP tool,0,0
+58,syk8015/claudeusage,monitoring,b72735e675e2a74ed62e317e71a1207ea68f7ded,0,I2: no decorated/registered Python MCP tool,0,0
+59,DataEval/dingo,data-science-tools,d0b392960b8e413ef9794cb9457a280b1bf43fa7,1,included,6,20
+60,sebastienrousseau/pacs008-mcp,finance--fintech,da834f273bd9c9a254ddbe85aa945892dea95a6f,1,included,16,7
+61,segentic-lab/periscope-mcp,browser-automation,6e3380eb4450e701f07b299248912cbb65f05a5c,1,included,74,113
+62,chroma-core/chroma-mcp,databases,98ff67589bdcc31b730a5415ff9529433f949077,0,I3: no file/HTTP site reachable,13,0
+63,giskard09/argentum-core,finance--fintech,4e2c91a1fbe2c5711cd659e656bafbfc54bed4f7,1,included,15,1
+64,morfiade-app/morfiade-mcp,browser-automation,8f18487719da86502d88becf94032deeacb87cb5,0,I2: no decorated/registered Python MCP tool,0,0
+65,Vasilispapg/claude-handoff,knowledge--memory,c722580c662ce3af3a91aab9be85aa0ceebbfb5d,0,I2: no decorated/registered Python MCP tool,0,0
+66,Archerkattri/mathlas,data-science-tools,af2f98479b85ebc1c994f4d5627be575ae53d2ec,0,I2: no decorated/registered Python MCP tool,0,0
+67,HanSur94/matlab-mcp-server-python,code-execution,0201c867d97340bd748c3a7b8bcacc6253d1eee2,1,included,20,46
+68,hyperb1iss/droidmind,developer-tools,8a5f6fee628488135db90cba5b0db54bd4a2d4ab,1,included,8,7
+69,adanb13/cirdan,monitoring,d778cfa2638ada53178b50b882fe76450ad98c04,1,included,6,7
+70,vornicx/Midas,knowledge--memory,ee9953c15a977343eb783de0b9f217aaf46e5b4e,0,I3: no file/HTTP site reachable,23,0
+71,serpapi/serpapi-mcp,search,8f6e6b513b4c1eca3cb5c6f2653f593051e6629c,1,included,3,1
+72,amirdaraee/luxembourg-mcp,travel-and-transportation,9fee23dce33aa5002fb5d9a6f2d0890396e38193,0,I2: no decorated/registered Python MCP tool,0,0
+73,ntworm/ableton-mcp-server,art-and-culture,d5e2750e82a468e8492cf5cd93a77481902b51ad,1,included,97,131
+74,trakshan-mishra/Diffcontext,developer-tools,e8a5159843f40ecc0a5d5b2a4fbe7c4ef1b3903f,1,included,4,28

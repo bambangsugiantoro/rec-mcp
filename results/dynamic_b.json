@@ -1,0 +1,2024 @@
+[
+ {
+  "repo": "xsf0221/pattern-vista-cli",
+  "file": "src/pattern_vista/mcp_server.py",
+  "tools": [
+   "market_stretch",
+   "deviation_ranking",
+   "recommended_patterns",
+   "ticker_report",
+   "account_status"
+  ],
+  "result": {
+   "module": "pattern_vista.mcp_server",
+   "import_ok": true,
+   "calls": [
+    {
+     "tool": "market_stretch",
+     "probe": 0,
+     "args": {
+      "days": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "exceptions must derive from BaseException"
+    },
+    {
+     "tool": "market_stretch",
+     "probe": 1,
+     "args": {
+      "days": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "exceptions must derive from BaseException"
+    },
+    {
+     "tool": "deviation_ranking",
+     "probe": 0,
+     "args": {
+      "direction": "rec_probe.txt",
+      "limit": 1
+     },
+     "status": "raised TypeError",
+     "error": "exceptions must derive from BaseException"
+    },
+    {
+     "tool": "deviation_ranking",
+     "probe": 1,
+     "args": {
+      "direction": "../rec_escape_probe.txt",
+      "limit": 1
+     },
+     "status": "raised TypeError",
+     "error": "exceptions must derive from BaseException"
+    },
+    {
+     "tool": "recommended_patterns",
+     "probe": 0,
+     "args": {
+      "limit": 1
+     },
+     "status": "raised TypeError",
+     "error": "exceptions must derive from BaseException"
+    },
+    {
+     "tool": "recommended_patterns",
+     "probe": 1,
+     "args": {
+      "limit": 1
+     },
+     "status": "raised TypeError",
+     "error": "exceptions must derive from BaseException"
+    },
+    {
+     "tool": "ticker_report",
+     "probe": 0,
+     "args": {
+      "symbol": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "exceptions must derive from BaseException"
+    },
+    {
+     "tool": "ticker_report",
+     "probe": 1,
+     "args": {
+      "symbol": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "exceptions must derive from BaseException"
+    },
+    {
+     "tool": "account_status",
+     "probe": 0,
+     "args": {},
+     "status": "raised TypeError",
+     "error": "exceptions must derive from BaseException"
+    },
+    {
+     "tool": "account_status",
+     "probe": 1,
+     "args": {},
+     "status": "raised TypeError",
+     "error": "exceptions must derive from BaseException"
+    }
+   ]
+  },
+  "events": []
+ },
+ {
+  "repo": "Danielpeter-99/calcom-mcp",
+  "file": "app.py",
+  "tools": [
+   "list_event_types",
+   "get_bookings",
+   "create_booking",
+   "list_schedules",
+   "list_teams",
+   "list_users",
+   "list_webhooks"
+  ],
+  "result": {
+   "module": "app",
+   "import_ok": true,
+   "calls": [
+    {
+     "tool": "list_event_types",
+     "probe": 0,
+     "args": {},
+     "status": "ok"
+    },
+    {
+     "tool": "list_event_types",
+     "probe": 1,
+     "args": {},
+     "status": "ok"
+    },
+    {
+     "tool": "get_bookings",
+     "probe": 0,
+     "args": {
+      "event_type_id": "rec_probe",
+      "user_id": "rec_probe",
+      "status": "rec_probe",
+      "date_from": "rec_probe",
+      "date_to": "rec_probe",
+      "limit": 1
+     },
+     "status": "ok"
+    },
+    {
+     "tool": "get_bookings",
+     "probe": 1,
+     "args": {
+      "event_type_id": "rec_probe",
+      "user_id": "rec_probe",
+      "status": "rec_probe",
+      "date_from": "rec_probe",
+      "date_to": "rec_probe",
+      "limit": 1
+     },
+     "status": "ok"
+    },
+    {
+     "tool": "create_booking",
+     "probe": 0,
+     "args": {
+      "start_time": "rec_probe",
+      "attendee_name": "rec_probe.txt",
+      "attendee_email": "rec_probe",
+      "attendee_timezone": "rec_probe",
+      "event_type_id": "rec_probe",
+      "event_type_slug": "rec_probe.txt",
+      "username": "rec_probe.txt",
+      "team_slug": "rec_probe.txt",
+      "organization_slug": "rec_probe.txt",
+      "attendee_phone_number": 1,
+      "attendee_language": "rec_probe",
+      "guests": "rec_probe",
+      "location_input": "rec_probe.txt",
+      "metadata": "rec probe content",
+      "length_in_minutes": 1,
+      "booking_fields_responses": "rec_probe"
+     },
+     "status": "ok"
+    },
+    {
+     "tool": "create_booking",
+     "probe": 1,
+     "args": {
+      "start_time": "rec_probe",
+      "attendee_name": "../rec_escape_probe.txt",
+      "attendee_email": "rec_probe",
+      "attendee_timezone": "rec_probe",
+      "event_type_id": "rec_probe",
+      "event_type_slug": "../rec_escape_probe.txt",
+      "username": "../rec_escape_probe.txt",
+      "team_slug": "../rec_escape_probe.txt",
+      "organization_slug": "../rec_escape_probe.txt",
+      "attendee_phone_number": 1,
+      "attendee_language": "rec_probe",
+      "guests": "rec_probe",
+      "location_input": "../rec_escape_probe.txt",
+      "metadata": "rec probe content",
+      "length_in_minutes": 1,
+      "booking_fields_responses": "rec_probe"
+     },
+     "status": "ok"
+    },
+    {
+     "tool": "list_schedules",
+     "probe": 0,
+     "args": {
+      "user_id": "rec_probe",
+      "team_id": "rec_probe",
+      "limit": 1
+     },
+     "status": "ok"
+    },
+    {
+     "tool": "list_schedules",
+     "probe": 1,
+     "args": {
+      "user_id": "rec_probe",
+      "team_id": "rec_probe",
+      "limit": 1
+     },
+     "status": "ok"
+    },
+    {
+     "tool": "list_teams",
+     "probe": 0,
+     "args": {
+      "limit": 1
+     },
+     "status": "ok"
+    },
+    {
+     "tool": "list_teams",
+     "probe": 1,
+     "args": {
+      "limit": 1
+     },
+     "status": "ok"
+    },
+    {
+     "tool": "list_users",
+     "probe": 0,
+     "args": {
+      "limit": 1
+     },
+     "status": "ok"
+    },
+    {
+     "tool": "list_users",
+     "probe": 1,
+     "args": {
+      "limit": 1
+     },
+     "status": "ok"
+    },
+    {
+     "tool": "list_webhooks",
+     "probe": 0,
+     "args": {
+      "limit": 1
+     },
+     "status": "ok"
+    },
+    {
+     "tool": "list_webhooks",
+     "probe": 1,
+     "args": {
+      "limit": 1
+     },
+     "status": "ok"
+    }
+   ]
+  },
+  "events": []
+ },
+ {
+  "repo": "robotel-limited/robo-cortex",
+  "file": "src/robo_cortex/mcp_server.py",
+  "tools": [
+   "verify_evidence_tool"
+  ],
+  "result": {
+   "module": "robo_cortex.mcp_server",
+   "import_ok": true,
+   "calls": [
+    {
+     "tool": "verify_evidence_tool",
+     "status": "not found"
+    }
+   ]
+  },
+  "events": []
+ },
+ {
+  "repo": "cstamigo-droid/signal-scanner",
+  "file": "signal_scanner/server.py",
+  "tools": [
+   "scan"
+  ],
+  "result": {
+   "module": "signal_scanner.server",
+   "import_ok": true,
+   "calls": [
+    {
+     "tool": "scan",
+     "probe": 0,
+     "args": {
+      "params": "rec_probe"
+     },
+     "status": "raised AttributeError",
+     "error": "'str' object has no attribute 'symbols'"
+    },
+    {
+     "tool": "scan",
+     "probe": 1,
+     "args": {
+      "params": "rec_probe"
+     },
+     "status": "raised AttributeError",
+     "error": "'str' object has no attribute 'symbols'"
+    }
+   ]
+  },
+  "events": []
+ },
+ {
+  "repo": "OSOJDJD/deeplook",
+  "file": "deeplook/mcp_server.py",
+  "tools": [
+   "deeplook_research",
+   "deeplook_lookup",
+   "deeplook_research_with_judgment"
+  ],
+  "result": {
+   "module": "deeplook.mcp_server",
+   "import_ok": false,
+   "calls": [],
+   "import_error": "ModuleNotFoundError: No module named 'yfinance'"
+  },
+  "events": []
+ },
+ {
+  "repo": "datalayer/jupyter-mcp-server",
+  "file": "jupyter_mcp_server/server.py",
+  "tools": [
+   "overwrite_cell_source",
+   "edit_cell_source",
+   "execute_cell",
+   "read_cell",
+   "delete_cell",
+   "clear_cell_output",
+   "move_cell"
+  ],
+  "result": {
+   "module": "jupyter_mcp_server.server",
+   "import_ok": false,
+   "calls": [],
+   "import_error": "ModuleNotFoundError: No module named 'jupyter_server'"
+  },
+  "events": []
+ },
+ {
+  "repo": "johannesbrandenburger/typst-mcp",
+  "file": "server.py",
+  "tools": [
+   "latex_snippet_to_typst",
+   "latex_snippets_to_typst",
+   "check_if_snippet_is_valid_typst_syntax",
+   "check_if_snippets_are_valid_typst_syntax",
+   "typst_snippet_to_image"
+  ],
+  "result": {
+   "module": "server",
+   "import_ok": false,
+   "calls": [],
+   "import_error": "FileNotFoundError: [Errno 2] No such file or directory: 'corpus/johannesbrandenburger__typst-mcp/typst-docs/main.json'"
+  },
+  "events": []
+ },
+ {
+  "repo": "nmhaaa3218/TuViMCP",
+  "file": "tuvi_mcp/_server.py",
+  "tools": [
+   "generate_horoscope"
+  ],
+  "result": {
+   "module": "tuvi_mcp._server",
+   "import_ok": true,
+   "calls": [
+    {
+     "tool": "generate_horoscope",
+     "probe": 0,
+     "args": {
+      "name": "rec_probe.txt",
+      "day": "rec_probe",
+      "month": "rec_probe",
+      "year": "rec_probe",
+      "hour_val": "rec_probe",
+      "gender_val": "rec_probe",
+      "is_solar": "rec_probe",
+      "current_year": "rec_probe",
+      "generate_image": "rec_probe",
+      "timezone": "rec_probe"
+     },
+     "status": "ok"
+    },
+    {
+     "tool": "generate_horoscope",
+     "probe": 1,
+     "args": {
+      "name": "../rec_escape_probe.txt",
+      "day": "rec_probe",
+      "month": "rec_probe",
+      "year": "rec_probe",
+      "hour_val": "rec_probe",
+      "gender_val": "rec_probe",
+      "is_solar": "rec_probe",
+      "current_year": "rec_probe",
+      "generate_image": "rec_probe",
+      "timezone": "rec_probe"
+     },
+     "status": "ok"
+    }
+   ]
+  },
+  "events": []
+ },
+ {
+  "repo": "DataEval/dingo",
+  "file": "mcp_server.py",
+  "tools": [
+   "run_dingo_evaluation",
+   "run_quick_evaluation"
+  ],
+  "result": {
+   "module": "mcp_server",
+   "import_ok": false,
+   "calls": [],
+   "import_error": "ModuleNotFoundError: No module named 'tqdm'"
+  },
+  "events": []
+ },
+ {
+  "repo": "sebastienrousseau/pacs008-mcp",
+  "file": "pacs008_mcp/server.py",
+  "tools": [
+   "generate_message",
+   "validate_xml",
+   "verify_bic_online"
+  ],
+  "result": {
+   "module": "pacs008_mcp.server",
+   "import_ok": false,
+   "calls": [],
+   "import_error": "ModuleNotFoundError: No module named 'pacs008'"
+  },
+  "events": []
+ },
+ {
+  "repo": "segentic-lab/periscope-mcp",
+  "file": "handlers/report.py",
+  "tools": [
+   "handle_session_report"
+  ],
+  "result": {
+   "module": "handlers.report",
+   "import_ok": true,
+   "calls": [
+    {
+     "tool": "handle_session_report",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised AttributeError",
+     "error": "'str' object has no attribute 'get'"
+    },
+    {
+     "tool": "handle_session_report",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised AttributeError",
+     "error": "'str' object has no attribute 'get'"
+    }
+   ]
+  },
+  "events": []
+ },
+ {
+  "repo": "segentic-lab/periscope-mcp",
+  "file": "handlers/session_tools.py",
+  "tools": [
+   "handle_open_session",
+   "handle_set_viewport",
+   "handle_screenshot_session",
+   "handle_navigate_session"
+  ],
+  "result": {
+   "module": "handlers.session_tools",
+   "import_ok": true,
+   "calls": [
+    {
+     "tool": "handle_open_session",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised Error",
+     "error": "BrowserType.launch: Executable doesn't exist at /tmp/recsb_q9gc6wq1/home/.cache/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-"
+    },
+    {
+     "tool": "handle_open_session",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised Error",
+     "error": "BrowserType.launch: Executable doesn't exist at /tmp/recsb_q9gc6wq1/home/.cache/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-"
+    },
+    {
+     "tool": "handle_set_viewport",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_set_viewport",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_screenshot_session",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_screenshot_session",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_navigate_session",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_navigate_session",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    }
+   ]
+  },
+  "events": [
+   {
+    "tool": "handle_open_session",
+    "kind": "fs.write",
+    "api": "open",
+    "requested": "7",
+    "resolved": "fd:7",
+    "t": 1793515994.2365637,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_open_session",
+    "kind": "fs.read",
+    "api": "open",
+    "requested": "8",
+    "resolved": "fd:8",
+    "t": 1793515994.2365746,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_open_session",
+    "kind": "fs.write",
+    "api": "open",
+    "requested": "10",
+    "resolved": "fd:10",
+    "t": 1793515994.5385041,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_open_session",
+    "kind": "fs.read",
+    "api": "open",
+    "requested": "11",
+    "resolved": "fd:11",
+    "t": 1793515994.538513,
+    "class": "nonarg-outside"
+   }
+  ]
+ },
+ {
+  "repo": "segentic-lab/periscope-mcp",
+  "file": "handlers/auth.py",
+  "tools": [
+   "handle_set_form_login",
+   "handle_set_basic_auth",
+   "handle_set_cookies",
+   "handle_login_project",
+   "handle_interactive_login",
+   "handle_save_login",
+   "handle_copy_auth"
+  ],
+  "result": {
+   "module": "handlers.auth",
+   "import_ok": true,
+   "calls": [
+    {
+     "tool": "handle_set_form_login",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_set_form_login",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_set_basic_auth",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_set_basic_auth",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_set_cookies",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_set_cookies",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_login_project",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_login_project",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_interactive_login",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_interactive_login",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_save_login",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_save_login",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_copy_auth",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_copy_auth",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    }
+   ]
+  },
+  "events": []
+ },
+ {
+  "repo": "segentic-lab/periscope-mcp",
+  "file": "handlers/system.py",
+  "tools": [
+   "handle_periscope_system"
+  ],
+  "result": {
+   "module": "handlers.system",
+   "import_ok": true,
+   "calls": [
+    {
+     "tool": "handle_periscope_system",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised AttributeError",
+     "error": "'str' object has no attribute 'get'"
+    },
+    {
+     "tool": "handle_periscope_system",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised AttributeError",
+     "error": "'str' object has no attribute 'get'"
+    }
+   ]
+  },
+  "events": []
+ },
+ {
+  "repo": "segentic-lab/periscope-mcp",
+  "file": "handlers/interactive.py",
+  "tools": [
+   "handle_click_element",
+   "handle_fill_form",
+   "handle_interact_and_test",
+   "handle_get_page_elements",
+   "handle_upload_file",
+   "handle_flow",
+   "handle_scroll_into_view",
+   "handle_select_option"
+  ],
+  "result": {
+   "module": "handlers.interactive",
+   "import_ok": true,
+   "calls": [
+    {
+     "tool": "handle_click_element",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_click_element",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_fill_form",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_fill_form",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_interact_and_test",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised Error",
+     "error": "BrowserType.launch: Executable doesn't exist at /tmp/recsb_pp8q2598/home/.cache/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-"
+    },
+    {
+     "tool": "handle_interact_and_test",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised Error",
+     "error": "BrowserType.launch: Executable doesn't exist at /tmp/recsb_pp8q2598/home/.cache/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-"
+    },
+    {
+     "tool": "handle_get_page_elements",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised Error",
+     "error": "BrowserType.launch: Executable doesn't exist at /tmp/recsb_pp8q2598/home/.cache/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-"
+    },
+    {
+     "tool": "handle_get_page_elements",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised Error",
+     "error": "BrowserType.launch: Executable doesn't exist at /tmp/recsb_pp8q2598/home/.cache/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-"
+    },
+    {
+     "tool": "handle_upload_file",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_upload_file",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_flow",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised AttributeError",
+     "error": "'str' object has no attribute 'get'"
+    },
+    {
+     "tool": "handle_flow",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised AttributeError",
+     "error": "'str' object has no attribute 'get'"
+    },
+    {
+     "tool": "handle_scroll_into_view",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_scroll_into_view",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_select_option",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_select_option",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    }
+   ]
+  },
+  "events": [
+   {
+    "tool": "handle_interact_and_test",
+    "kind": "fs.write",
+    "api": "open",
+    "requested": "7",
+    "resolved": "fd:7",
+    "t": 1793515995.4521928,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_interact_and_test",
+    "kind": "fs.read",
+    "api": "open",
+    "requested": "8",
+    "resolved": "fd:8",
+    "t": 1793515995.4522023,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_interact_and_test",
+    "kind": "fs.write",
+    "api": "open",
+    "requested": "10",
+    "resolved": "fd:10",
+    "t": 1793515995.739021,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_interact_and_test",
+    "kind": "fs.read",
+    "api": "open",
+    "requested": "11",
+    "resolved": "fd:11",
+    "t": 1793515995.7390304,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_get_page_elements",
+    "kind": "fs.write",
+    "api": "open",
+    "requested": "13",
+    "resolved": "fd:13",
+    "t": 1793515996.0063634,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_get_page_elements",
+    "kind": "fs.read",
+    "api": "open",
+    "requested": "14",
+    "resolved": "fd:14",
+    "t": 1793515996.0063734,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_get_page_elements",
+    "kind": "fs.write",
+    "api": "open",
+    "requested": "16",
+    "resolved": "fd:16",
+    "t": 1793515996.2637239,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_get_page_elements",
+    "kind": "fs.read",
+    "api": "open",
+    "requested": "17",
+    "resolved": "fd:17",
+    "t": 1793515996.2637331,
+    "class": "nonarg-outside"
+   }
+  ]
+ },
+ {
+  "repo": "segentic-lab/periscope-mcp",
+  "file": "handlers/web.py",
+  "tools": [
+   "handle_web_fetch"
+  ],
+  "result": {
+   "module": "handlers.web",
+   "import_ok": true,
+   "calls": [
+    {
+     "tool": "handle_web_fetch",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_web_fetch",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    }
+   ]
+  },
+  "events": []
+ },
+ {
+  "repo": "segentic-lab/periscope-mcp",
+  "file": "handlers/static_testing.py",
+  "tools": [
+   "handle_test_url",
+   "handle_crawl_project",
+   "handle_test_project",
+   "handle_get_screenshot",
+   "handle_list_reports",
+   "handle_get_report",
+   "handle_compare_screenshots",
+   "handle_visual_check",
+   "handle_test_responsive"
+  ],
+  "result": {
+   "module": "handlers.static_testing",
+   "import_ok": true,
+   "calls": [
+    {
+     "tool": "handle_test_url",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised Error",
+     "error": "BrowserType.launch: Executable doesn't exist at /tmp/recsb_uz04joxn/home/.cache/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-"
+    },
+    {
+     "tool": "handle_test_url",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised Error",
+     "error": "BrowserType.launch: Executable doesn't exist at /tmp/recsb_uz04joxn/home/.cache/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-"
+    },
+    {
+     "tool": "handle_crawl_project",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_crawl_project",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_test_project",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_test_project",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_get_screenshot",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised Error",
+     "error": "BrowserType.launch: Executable doesn't exist at /tmp/recsb_uz04joxn/home/.cache/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-"
+    },
+    {
+     "tool": "handle_get_screenshot",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised Error",
+     "error": "BrowserType.launch: Executable doesn't exist at /tmp/recsb_uz04joxn/home/.cache/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-"
+    },
+    {
+     "tool": "handle_list_reports",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised AttributeError",
+     "error": "'str' object has no attribute 'get'"
+    },
+    {
+     "tool": "handle_list_reports",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised AttributeError",
+     "error": "'str' object has no attribute 'get'"
+    },
+    {
+     "tool": "handle_get_report",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_get_report",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_compare_screenshots",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_compare_screenshots",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_visual_check",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_visual_check",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_test_responsive",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised Error",
+     "error": "BrowserType.launch: Executable doesn't exist at /tmp/recsb_uz04joxn/home/.cache/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-"
+    },
+    {
+     "tool": "handle_test_responsive",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised Error",
+     "error": "BrowserType.launch: Executable doesn't exist at /tmp/recsb_uz04joxn/home/.cache/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-"
+    }
+   ]
+  },
+  "events": [
+   {
+    "tool": "handle_test_url",
+    "kind": "fs.write",
+    "api": "open",
+    "requested": "7",
+    "resolved": "fd:7",
+    "t": 1793515997.063079,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_test_url",
+    "kind": "fs.read",
+    "api": "open",
+    "requested": "8",
+    "resolved": "fd:8",
+    "t": 1793515997.0630882,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_test_url",
+    "kind": "fs.write",
+    "api": "open",
+    "requested": "10",
+    "resolved": "fd:10",
+    "t": 1793515997.311705,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_test_url",
+    "kind": "fs.read",
+    "api": "open",
+    "requested": "11",
+    "resolved": "fd:11",
+    "t": 1793515997.3117135,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_get_screenshot",
+    "kind": "fs.write",
+    "api": "open",
+    "requested": "13",
+    "resolved": "fd:13",
+    "t": 1793515997.5559077,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_get_screenshot",
+    "kind": "fs.read",
+    "api": "open",
+    "requested": "14",
+    "resolved": "fd:14",
+    "t": 1793515997.5559173,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_get_screenshot",
+    "kind": "fs.write",
+    "api": "open",
+    "requested": "16",
+    "resolved": "fd:16",
+    "t": 1793515997.79999,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_get_screenshot",
+    "kind": "fs.read",
+    "api": "open",
+    "requested": "17",
+    "resolved": "fd:17",
+    "t": 1793515997.799999,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_test_responsive",
+    "kind": "fs.write",
+    "api": "open",
+    "requested": "19",
+    "resolved": "fd:19",
+    "t": 1793515998.1203015,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_test_responsive",
+    "kind": "fs.read",
+    "api": "open",
+    "requested": "20",
+    "resolved": "fd:20",
+    "t": 1793515998.1203089,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_test_responsive",
+    "kind": "fs.write",
+    "api": "open",
+    "requested": "22",
+    "resolved": "fd:22",
+    "t": 1793515998.7253711,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_test_responsive",
+    "kind": "fs.read",
+    "api": "open",
+    "requested": "23",
+    "resolved": "fd:23",
+    "t": 1793515998.7253792,
+    "class": "nonarg-outside"
+   }
+  ]
+ },
+ {
+  "repo": "segentic-lab/periscope-mcp",
+  "file": "handlers/projects.py",
+  "tools": [
+   "handle_create_project",
+   "handle_delete_project"
+  ],
+  "result": {
+   "module": "handlers.projects",
+   "import_ok": true,
+   "calls": [
+    {
+     "tool": "handle_create_project",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised AttributeError",
+     "error": "'str' object has no attribute 'get'"
+    },
+    {
+     "tool": "handle_create_project",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised AttributeError",
+     "error": "'str' object has no attribute 'get'"
+    },
+    {
+     "tool": "handle_delete_project",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_delete_project",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    }
+   ]
+  },
+  "events": []
+ },
+ {
+  "repo": "segentic-lab/periscope-mcp",
+  "file": "handlers/advanced.py",
+  "tools": [
+   "handle_record_session",
+   "handle_download_file",
+   "handle_test_dark_mode"
+  ],
+  "result": {
+   "module": "handlers.advanced",
+   "import_ok": true,
+   "calls": [
+    {
+     "tool": "handle_record_session",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised Error",
+     "error": "BrowserType.launch: Executable doesn't exist at /tmp/recsb_psqao5tt/home/.cache/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-"
+    },
+    {
+     "tool": "handle_record_session",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised Error",
+     "error": "BrowserType.launch: Executable doesn't exist at /tmp/recsb_psqao5tt/home/.cache/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-"
+    },
+    {
+     "tool": "handle_download_file",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_download_file",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_test_dark_mode",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_test_dark_mode",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    }
+   ]
+  },
+  "events": [
+   {
+    "tool": "handle_record_session",
+    "kind": "fs.write",
+    "api": "open",
+    "requested": "7",
+    "resolved": "fd:7",
+    "t": 1793515999.857679,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_record_session",
+    "kind": "fs.read",
+    "api": "open",
+    "requested": "8",
+    "resolved": "fd:8",
+    "t": 1793515999.8576906,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_record_session",
+    "kind": "fs.write",
+    "api": "open",
+    "requested": "10",
+    "resolved": "fd:10",
+    "t": 1793516000.138765,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_record_session",
+    "kind": "fs.read",
+    "api": "open",
+    "requested": "11",
+    "resolved": "fd:11",
+    "t": 1793516000.1387746,
+    "class": "nonarg-outside"
+   }
+  ]
+ },
+ {
+  "repo": "segentic-lab/periscope-mcp",
+  "file": "handlers/analysis.py",
+  "tools": [
+   "handle_test_form_validation",
+   "handle_check_links",
+   "handle_measure_interaction",
+   "handle_test_keyboard_navigation",
+   "handle_run_checks_on_session",
+   "handle_get_interaction_log",
+   "handle_run_lighthouse"
+  ],
+  "result": {
+   "module": "handlers.analysis",
+   "import_ok": true,
+   "calls": [
+    {
+     "tool": "handle_test_form_validation",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised Error",
+     "error": "BrowserType.launch: Executable doesn't exist at /tmp/recsb_88rwc6z0/home/.cache/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-"
+    },
+    {
+     "tool": "handle_test_form_validation",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised Error",
+     "error": "BrowserType.launch: Executable doesn't exist at /tmp/recsb_88rwc6z0/home/.cache/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-"
+    },
+    {
+     "tool": "handle_check_links",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised Error",
+     "error": "BrowserType.launch: Executable doesn't exist at /tmp/recsb_88rwc6z0/home/.cache/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-"
+    },
+    {
+     "tool": "handle_check_links",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised Error",
+     "error": "BrowserType.launch: Executable doesn't exist at /tmp/recsb_88rwc6z0/home/.cache/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-"
+    },
+    {
+     "tool": "handle_measure_interaction",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_measure_interaction",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_test_keyboard_navigation",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised Error",
+     "error": "BrowserType.launch: Executable doesn't exist at /tmp/recsb_88rwc6z0/home/.cache/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-"
+    },
+    {
+     "tool": "handle_test_keyboard_navigation",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised Error",
+     "error": "BrowserType.launch: Executable doesn't exist at /tmp/recsb_88rwc6z0/home/.cache/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-"
+    },
+    {
+     "tool": "handle_run_checks_on_session",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_run_checks_on_session",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_get_interaction_log",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_get_interaction_log",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_run_lighthouse",
+     "probe": 0,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    },
+    {
+     "tool": "handle_run_lighthouse",
+     "probe": 1,
+     "args": {
+      "args": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "string indices must be integers, not 'str'"
+    }
+   ]
+  },
+  "events": [
+   {
+    "tool": "handle_test_form_validation",
+    "kind": "fs.write",
+    "api": "open",
+    "requested": "7",
+    "resolved": "fd:7",
+    "t": 1793516000.6633453,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_test_form_validation",
+    "kind": "fs.read",
+    "api": "open",
+    "requested": "8",
+    "resolved": "fd:8",
+    "t": 1793516000.663355,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_test_form_validation",
+    "kind": "fs.write",
+    "api": "open",
+    "requested": "10",
+    "resolved": "fd:10",
+    "t": 1793516000.9233453,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_test_form_validation",
+    "kind": "fs.read",
+    "api": "open",
+    "requested": "11",
+    "resolved": "fd:11",
+    "t": 1793516000.923357,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_check_links",
+    "kind": "fs.write",
+    "api": "open",
+    "requested": "13",
+    "resolved": "fd:13",
+    "t": 1793516001.17401,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_check_links",
+    "kind": "fs.read",
+    "api": "open",
+    "requested": "14",
+    "resolved": "fd:14",
+    "t": 1793516001.1740193,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_check_links",
+    "kind": "fs.write",
+    "api": "open",
+    "requested": "16",
+    "resolved": "fd:16",
+    "t": 1793516001.4313915,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_check_links",
+    "kind": "fs.read",
+    "api": "open",
+    "requested": "17",
+    "resolved": "fd:17",
+    "t": 1793516001.4314005,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_test_keyboard_navigation",
+    "kind": "fs.write",
+    "api": "open",
+    "requested": "19",
+    "resolved": "fd:19",
+    "t": 1793516001.71293,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_test_keyboard_navigation",
+    "kind": "fs.read",
+    "api": "open",
+    "requested": "20",
+    "resolved": "fd:20",
+    "t": 1793516001.7129421,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_test_keyboard_navigation",
+    "kind": "fs.write",
+    "api": "open",
+    "requested": "22",
+    "resolved": "fd:22",
+    "t": 1793516002.013772,
+    "class": "nonarg-outside"
+   },
+   {
+    "tool": "handle_test_keyboard_navigation",
+    "kind": "fs.read",
+    "api": "open",
+    "requested": "23",
+    "resolved": "fd:23",
+    "t": 1793516002.0137832,
+    "class": "nonarg-outside"
+   }
+  ]
+ },
+ {
+  "repo": "giskard09/argentum-core",
+  "file": "argentum.py",
+  "tools": [
+   "get_trail"
+  ],
+  "result": {
+   "module": "argentum",
+   "import_ok": false,
+   "calls": [],
+   "import_error": "ModuleNotFoundError: No module named 'fastapi'"
+  },
+  "events": []
+ },
+ {
+  "repo": "HanSur94/matlab-mcp-server-python",
+  "file": "src/matlab_mcp/server.py",
+  "tools": [
+   "execute_code",
+   "check_code",
+   "get_workspace",
+   "get_job_status",
+   "list_jobs",
+   "list_toolboxes",
+   "list_functions",
+   "get_help",
+   "upload_data",
+   "delete_file",
+   "list_files",
+   "read_script",
+   "read_data",
+   "read_image"
+  ],
+  "result": {
+   "module": "matlab_mcp.server",
+   "import_ok": false,
+   "calls": [],
+   "import_error": "TypeError: 'type' object is not iterable"
+  },
+  "events": []
+ },
+ {
+  "repo": "hyperb1iss/droidmind",
+  "file": "droidmind/tools/diagnostics.py",
+  "tools": [
+   "android_diag"
+  ],
+  "result": {
+   "module": "droidmind.tools.diagnostics",
+   "import_ok": true,
+   "calls": [
+    {
+     "tool": "android_diag",
+     "probe": 0,
+     "args": {
+      "serial": "rec_probe",
+      "action": 1,
+      "output_path": "rec_probe.txt",
+      "include_screenshots": "rec_probe",
+      "package_or_pid": "rec_probe",
+      "native": "rec_probe",
+      "timeout_seconds": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "android_diag() missing 1 required positional argument: 'ctx'"
+    },
+    {
+     "tool": "android_diag",
+     "probe": 1,
+     "args": {
+      "serial": "rec_probe",
+      "action": 1,
+      "output_path": "../rec_escape_probe.txt",
+      "include_screenshots": "rec_probe",
+      "package_or_pid": "rec_probe",
+      "native": "rec_probe",
+      "timeout_seconds": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "android_diag() missing 1 required positional argument: 'ctx'"
+    }
+   ]
+  },
+  "events": []
+ },
+ {
+  "repo": "hyperb1iss/droidmind",
+  "file": "droidmind/tools/file_operations.py",
+  "tools": [
+   "file_operations"
+  ],
+  "result": {
+   "module": "droidmind.tools.file_operations",
+   "import_ok": true,
+   "calls": [
+    {
+     "tool": "file_operations",
+     "probe": 0,
+     "args": {
+      "serial": "rec_probe",
+      "action": 1,
+      "path": "rec_probe.txt",
+      "local_path": "rec_probe.txt",
+      "device_path": "rec_probe.txt",
+      "content": "rec probe content",
+      "max_size": 1
+     },
+     "status": "raised TypeError",
+     "error": "file_operations() missing 1 required positional argument: 'ctx'"
+    },
+    {
+     "tool": "file_operations",
+     "probe": 1,
+     "args": {
+      "serial": "rec_probe",
+      "action": 1,
+      "path": "../rec_escape_probe.txt",
+      "local_path": "../rec_escape_probe.txt",
+      "device_path": "../rec_escape_probe.txt",
+      "content": "rec probe content",
+      "max_size": 1
+     },
+     "status": "raised TypeError",
+     "error": "file_operations() missing 1 required positional argument: 'ctx'"
+    }
+   ]
+  },
+  "events": []
+ },
+ {
+  "repo": "hyperb1iss/droidmind",
+  "file": "droidmind/tools/media.py",
+  "tools": [
+   "screenshot"
+  ],
+  "result": {
+   "module": "droidmind.tools.media",
+   "import_ok": true,
+   "calls": [
+    {
+     "tool": "screenshot",
+     "probe": 0,
+     "args": {
+      "serial": "rec_probe",
+      "quality": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "screenshot() missing 1 required positional argument: 'ctx'"
+    },
+    {
+     "tool": "screenshot",
+     "probe": 1,
+     "args": {
+      "serial": "rec_probe",
+      "quality": "rec_probe"
+     },
+     "status": "raised TypeError",
+     "error": "screenshot() missing 1 required positional argument: 'ctx'"
+    }
+   ]
+  },
+  "events": []
+ },
+ {
+  "repo": "adanb13/cirdan",
+  "file": "cirdan/mcp/server.py",
+  "tools": [
+   "get_audit"
+  ],
+  "result": {
+   "module": "cirdan.mcp.server",
+   "import_ok": true,
+   "calls": [
+    {
+     "tool": "get_audit",
+     "status": "not found"
+    }
+   ]
+  },
+  "events": []
+ },
+ {
+  "repo": "serpapi/serpapi-mcp",
+  "file": "src/mcp_components/tools.py",
+  "tools": [
+   "search"
+  ],
+  "result": {
+   "module": "mcp_components.tools",
+   "import_ok": false,
+   "calls": [],
+   "import_error": "ModuleNotFoundError: No module named 'serpapi'"
+  },
+  "events": []
+ },
+ {
+  "repo": "ntworm/ableton-mcp-server",
+  "file": "ableton_mcp_server/server.py",
+  "tools": [
+   "get_ableton_logs",
+   "scaffold_extension",
+   "build_extension",
+   "groove_search",
+   "groove_evidence",
+   "groove_generate",
+   "groove_compare",
+   "groove_apply"
+  ],
+  "result": {
+   "module": "ableton_mcp_server.server",
+   "import_ok": false,
+   "calls": [],
+   "import_error": "ModuleNotFoundError: No module named 'soundfile'"
+  },
+  "events": []
+ },
+ {
+  "repo": "trakshan-mishra/Diffcontext",
+  "file": "diffcontext/mcp_server.py",
+  "tools": [
+   "compile_context",
+   "find_impact",
+   "explain_selection",
+   "verify_retrieval"
+  ],
+  "result": {
+   "module": "diffcontext.mcp_server",
+   "import_ok": true,
+   "calls": [
+    {
+     "tool": "compile_context",
+     "status": "not found"
+    },
+    {
+     "tool": "find_impact",
+     "status": "not found"
+    },
+    {
+     "tool": "explain_selection",
+     "status": "not found"
+    },
+    {
+     "tool": "verify_retrieval",
+     "status": "not found"
+    }
+   ]
+  },
+  "events": []
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "signal": "write/delete in tool named as read-only",
+  "repo": "HanSur94/matlab-mcp-server-python",
+  "tool": "list_toolboxes",
+  "kind": "fs.write",
+  "file": "src/matlab_mcp/session/manager.py",
+  "line": 148,
+  "term": "stored(cfg(self._base_temp))  <- join(cfg(self._base_temp), ⊥[call _sanitize_session_id])",
+  "code": "\n        temp_dir.mkdir(parents=True, exist_ok=True)\n\n"
+ },
+ {
+  "signal": "write/delete in tool named as read-only",
+  "repo": "vitorpavinato/ncbi-mcp-server",
+  "tool": "get_related_articles",
+  "kind": "fs.delete",
+  "file": "src/ncbi_mcp_server/cache.py",
+  "line": 107,
+  "term": "join(cfg(self.file_cache_dir), join(const('query'), const('.cache')))",
+  "code": "            if datetime.now() > cache_entry['expires']:\n                cache_file.unlink()  # Delete expired file\n                return None\n"
+ },
+ {
+  "signal": "write/delete in tool named as read-only",
+  "repo": "vitorpavinato/ncbi-mcp-server",
+  "tool": "search_mesh_terms",
+  "kind": "fs.delete",
+  "file": "src/ncbi_mcp_server/cache.py",
+  "line": 107,
+  "term": "join(cfg(self.file_cache_dir), join(const('query'), const('.cache')))",
+  "code": "            if datetime.now() > cache_entry['expires']:\n                cache_file.unlink()  # Delete expired file\n                return None\n"
+ },
+ {
+  "signal": "writes object not named by any argument",
+  "repo": "AIops-tools/Ceph-AIops",
+  "tool": "set_pool_autoscale",
+  "kind": "fs.write",
+  "file": "ceph_aiops/secretstore.py",
+  "line": 233,
+  "term": "derive(with_suffix, cfg(SECRETS_FILE))",
+  "code": "        tmp = SECRETS_FILE.with_suffix(\".enc.tmp\")\n        tmp.write_text(blob, \"utf-8\")\n        _chmod_600(tmp)\n"
+ },
+ {
+  "signal": "writes object not named by any argument",
+  "repo": "segentic-lab/periscope-mcp",
+  "tool": "handle_click_element",
+  "kind": "fs.write",
+  "file": "interactions.py",
+  "line": 528,
+  "term": "join(union(cfg(self.sessions[?].screenshot_dir), cfg(config.SCREENSHOT_DIR)), cfg(self.sessions[?].project_name))",
+  "code": "    project_dir = os.path.join(base_dir, project_name)\n    os.makedirs(project_dir, exist_ok=True)\n    timestamp = datetime.now().strftime(\"%Y%m%d_%H%M%S_%f\")\n"
+ },
+ {
+  "signal": "writes object not named by any argument",
+  "repo": "segentic-lab/periscope-mcp",
+  "tool": "handle_copy_auth",
+  "kind": "fs.write",
+  "file": "projects.py",
+  "line": 137,
+  "term": "derive(dirname, cfg(config.PROJECTS_FILE))",
+  "code": "    def _save(self):\n        os.makedirs(os.path.dirname(config.PROJECTS_FILE), exist_ok=True)\n        data = {name: proj.to_dict() for name, proj in self.projects.items()}\n"
+ },
+ {
+  "signal": "writes object not named by any argument",
+  "repo": "segentic-lab/periscope-mcp",
+  "tool": "handle_download_file",
+  "kind": "fs.write",
+  "file": "handlers/advanced.py",
+  "line": 235,
+  "term": "join(cfg(config.DATA_DIR), const('downloads'))",
+  "code": "        downloads_dir = os.path.join(config.DATA_DIR, \"downloads\")\n        os.makedirs(downloads_dir, exist_ok=True)\n        from datetime import datetime\n"
+ },
+ {
+  "signal": "writes object not named by any argument",
+  "repo": "segentic-lab/periscope-mcp",
+  "tool": "handle_flow",
+  "kind": "fs.write",
+  "file": "handlers/interactive.py",
+  "line": 266,
+  "term": "join(cfg(config.DATA_DIR), const('flows'))",
+  "code": "        flows_dir = os.path.join(config.DATA_DIR, \"flows\")\n        os.makedirs(flows_dir, exist_ok=True)\n\n"
+ },
+ {
+  "signal": "writes object not named by any argument",
+  "repo": "segentic-lab/periscope-mcp",
+  "tool": "handle_open_session",
+  "kind": "fs.write",
+  "file": "projects.py",
+  "line": 137,
+  "term": "derive(dirname, cfg(config.PROJECTS_FILE))",
+  "code": "    def _save(self):\n        os.makedirs(os.path.dirname(config.PROJECTS_FILE), exist_ok=True)\n        data = {name: proj.to_dict() for name, proj in self.projects.items()}\n"
+ },
+ {
+  "signal": "writes object not named by any argument",
+  "repo": "segentic-lab/periscope-mcp",
+  "tool": "handle_record_session",
+  "kind": "fs.write",
+  "file": "projects.py",
+  "line": 137,
+  "term": "derive(dirname, cfg(config.PROJECTS_FILE))",
+  "code": "    def _save(self):\n        os.makedirs(os.path.dirname(config.PROJECTS_FILE), exist_ok=True)\n        data = {name: proj.to_dict() for name, proj in self.projects.items()}\n"
+ },
+ {
+  "signal": "writes object not named by any argument",
+  "repo": "segentic-lab/periscope-mcp",
+  "tool": "handle_test_dark_mode",
+  "kind": "fs.write",
+  "file": "interactions.py",
+  "line": 528,
+  "term": "join(union(cfg(self.sessions[?].screenshot_dir), cfg(config.SCREENSHOT_DIR)), cfg(self.sessions[?].project_name))",
+  "code": "    project_dir = os.path.join(base_dir, project_name)\n    os.makedirs(project_dir, exist_ok=True)\n    timestamp = datetime.now().strftime(\"%Y%m%d_%H%M%S_%f\")\n"
+ },
+ {
+  "signal": "writes object not named by any argument",
+  "repo": "segentic-lab/periscope-mcp",
+  "tool": "handle_visual_check",
+  "kind": "fs.write",
+  "file": "handlers/static_testing.py",
+  "line": 348,
+  "term": "join(cfg(config.DATA_DIR), const('baselines'), cfg(self.sessions[?].project_name))",
+  "code": "        baseline_dir = os.path.join(config.DATA_DIR, \"baselines\", session.project_name)\n        os.makedirs(baseline_dir, exist_ok=True)\n        baseline_path = os.path.join(baseline_dir, f\"{name}.png\")\n"
+ },
+ {
+  "signal": "writes object not named by any argument",
+  "repo": "vectorize-io/hindsight",
+  "tool": "clear_memories",
+  "kind": "fs.write",
+  "file": "hindsight-integrations/aider/hindsight_aider/runner.py",
+  "line": 61,
+  "term": "derive(parent, join(cfg(config.memory_filename)))",
+  "code": "        return False\n    memory_path.parent.mkdir(parents=True, exist_ok=True)\n    memory_path.write_text(text, encoding=\"utf-8\")\n"
+ },
+ {
+  "signal": "writes object not named by any argument",
+  "repo": "vectorize-io/hindsight",
+  "tool": "create_knowledge_page",
+  "kind": "fs.write",
+  "file": "hindsight-integrations/aider/hindsight_aider/runner.py",
+  "line": 61,
+  "term": "derive(parent, join(cfg(config.memory_filename)))",
+  "code": "        return False\n    memory_path.parent.mkdir(parents=True, exist_ok=True)\n    memory_path.write_text(text, encoding=\"utf-8\")\n"
+ }
+]

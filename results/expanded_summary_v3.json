@@ -1,0 +1,11 @@
+{
+ "repos_w_sites": 32,
+ "sites": 755,
+ "tools_w_sites": 300,
+ "exact": 0.609,
+ "stored": 0.046,
+ "failed": 0.344,
+ "median_exact_stored": 0.819,
+ "via_helper": 0.906,
+ "signal_tools": 41
+}

@@ -1,0 +1,242 @@
+[
+ {
+  "signal": "argument controls request URL/host",
+  "repo": "Patdolitse/piia-engram",
+  "tool": "read_web_content",
+  "kind": "http.request",
+  "file": "src/piia_engram/reader.py",
+  "line": 243,
+  "term": "arg(url)",
+  "code": "        follow_redirects=True, timeout=timeout, headers=headers\n    ) as client:\n        resp = await client.get(url)\n        resp.raise_for_status()\n"
+ },
+ {
+  "signal": "write/delete in tool named as read-only",
+  "repo": "Patdolitse/piia-engram",
+  "tool": "get_audit_log",
+  "kind": "fs.write",
+  "file": "src/piia_engram/audit.py",
+  "line": 113,
+  "term": "cfg(self.log_path.parent)",
+  "code": "            entry.setdefault(key, value)\n        try:\n            self.log_path.parent.mkdir(parents=True, exist_ok=True)\n            from .file_safety import rotate_if_oversized\n"
+ },
+ {
+  "signal": "write/delete in tool named as read-only",
+  "repo": "Patdolitse/piia-engram",
+  "tool": "get_decisions",
+  "kind": "fs.write",
+  "file": "src/piia_engram/audit.py",
+  "line": 113,
+  "term": "cfg(self.log_path.parent)",
+  "code": "            entry.setdefault(key, value)\n        try:\n            self.log_path.parent.mkdir(parents=True, exist_ok=True)\n            from .file_safety import rotate_if_oversized\n"
+ },
+ {
+  "signal": "write/delete in tool named as read-only",
+  "repo": "Patdolitse/piia-engram",
+  "tool": "get_identity_card",
+  "kind": "fs.write",
+  "file": "tests/test_task_checkpoint.py",
+  "line": 564,
+  "term": "join(⊥[unknown name tmp_path], const('replacement.jsonl'))",
+  "code": "        original(fd, expected)\n        replacement = tmp_path / \"replacement.jsonl\"\n        replacement.write_text(json.dumps(record(block())) + \"\\n\", encoding=\"utf-8\")\n        os.replace(replacement, path)\n"
+ },
+ {
+  "signal": "write/delete in tool named as read-only",
+  "repo": "Patdolitse/piia-engram",
+  "tool": "get_identity_facets",
+  "kind": "fs.write",
+  "file": "src/piia_engram/storage.py",
+  "line": 422,
+  "term": "derive(with_suffix, join(cfg(self._identity_dir), const('profile.json')))",
+  "code": "        raw = path.read_bytes()\n        if not _corrupt_copy_exists(path, raw):\n            shutil.copy2(path, backup)\n            logger.warning(\"corrupted file backed up to %s\", backup.name)\n"
+ },
+ {
+  "signal": "write/delete in tool named as read-only",
+  "repo": "Patdolitse/piia-engram",
+  "tool": "get_playbooks",
+  "kind": "fs.write",
+  "file": "tests/test_task_checkpoint.py",
+  "line": 564,
+  "term": "join(⊥[unknown name tmp_path], const('replacement.jsonl'))",
+  "code": "        original(fd, expected)\n        replacement = tmp_path / \"replacement.jsonl\"\n        replacement.write_text(json.dumps(record(block())) + \"\\n\", encoding=\"utf-8\")\n        os.replace(replacement, path)\n"
+ },
+ {
+  "signal": "write/delete in tool named as read-only",
+  "repo": "Patdolitse/piia-engram",
+  "tool": "get_recall",
+  "kind": "fs.write",
+  "file": "src/piia_engram/isolated_store.py",
+  "line": 2117,
+  "term": "⊥[unknown name audit_dir]",
+  "code": "    if getattr(exc, \"_audited\", False):\n        return\n    receipts_dir.mkdir(parents=True, exist_ok=True)\n    with (receipts_dir / REFUSALS_FILE).open(\"a\", encoding=\"utf-8\", newline=\"\\n\") as fh:\n"
+ },
+ {
+  "signal": "write/delete in tool named as read-only",
+  "repo": "Patdolitse/piia-engram",
+  "tool": "get_resume_brief",
+  "kind": "fs.write",
+  "file": "src/piia_engram/tombstones.py",
+  "line": 284,
+  "term": "derive(parent, ⊥[call _path])",
+  "code": "        record[\"event_key\"] = row[\"event_key\"]\n    path = _path(root)\n    path.parent.mkdir(parents=True, exist_ok=True)\n    with open(path, \"a\", encoding=\"utf-8\") as fh:\n"
+ },
+ {
+  "signal": "writes object not named by any argument",
+  "repo": "MnemeHQ/mneme",
+  "tool": "decision_applicable_to",
+  "kind": "fs.write",
+  "file": "tests/test_d1e2a_continuity.py",
+  "line": 55,
+  "term": "join(const('H1_STUB_HOOK_EVENTS'), const('adrs'))",
+  "code": "def env(tmp_path):\n    adr_dir = tmp_path / \"adrs\"\n    adr_dir.mkdir()\n    memory = tmp_path / \"project_memory.json\"\n"
+ },
+ {
+  "signal": "writes object not named by any argument",
+  "repo": "MnemeHQ/mneme",
+  "tool": "decision_search",
+  "kind": "fs.write",
+  "file": "tests/test_d1e2a_continuity.py",
+  "line": 55,
+  "term": "join(const('H1_STUB_HOOK_EVENTS'), const('adrs'))",
+  "code": "def env(tmp_path):\n    adr_dir = tmp_path / \"adrs\"\n    adr_dir.mkdir()\n    memory = tmp_path / \"project_memory.json\"\n"
+ },
+ {
+  "signal": "writes object not named by any argument",
+  "repo": "MnemeHQ/mneme",
+  "tool": "decision_trace",
+  "kind": "fs.write",
+  "file": "tests/test_d1e2a_continuity.py",
+  "line": 55,
+  "term": "join(const('H1_STUB_HOOK_EVENTS'), const('adrs'))",
+  "code": "def env(tmp_path):\n    adr_dir = tmp_path / \"adrs\"\n    adr_dir.mkdir()\n    memory = tmp_path / \"project_memory.json\"\n"
+ },
+ {
+  "signal": "writes object not named by any argument",
+  "repo": "MnemeHQ/mneme",
+  "tool": "write_file",
+  "kind": "fs.write",
+  "file": "validation/orchestrator-decision-sandbox/scripts/run_langgraph_checks.py",
+  "line": 114,
+  "term": "cfg(target.parent)",
+  "code": "        target = resolve(file_path)\n        record(\"write_file\", file_path)\n        target.parent.mkdir(parents=True, exist_ok=True)\n        target.write_bytes(content.encode(\"utf-8\"))\n"
+ },
+ {
+  "signal": "writes object not named by any argument",
+  "repo": "Patdolitse/piia-engram",
+  "tool": "export_engram",
+  "kind": "fs.write",
+  "file": "src/piia_engram/audit.py",
+  "line": 113,
+  "term": "cfg(self.log_path.parent)",
+  "code": "            entry.setdefault(key, value)\n        try:\n            self.log_path.parent.mkdir(parents=True, exist_ok=True)\n            from .file_safety import rotate_if_oversized\n"
+ },
+ {
+  "signal": "writes object not named by any argument",
+  "repo": "Patdolitse/piia-engram",
+  "tool": "get_audit_log",
+  "kind": "fs.write",
+  "file": "src/piia_engram/audit.py",
+  "line": 113,
+  "term": "cfg(self.log_path.parent)",
+  "code": "            entry.setdefault(key, value)\n        try:\n            self.log_path.parent.mkdir(parents=True, exist_ok=True)\n            from .file_safety import rotate_if_oversized\n"
+ },
+ {
+  "signal": "writes object not named by any argument",
+  "repo": "Patdolitse/piia-engram",
+  "tool": "get_identity_card",
+  "kind": "fs.write",
+  "file": "src/piia_engram/storage.py",
+  "line": 543,
+  "term": "cfg(self.root)",
+  "code": "    processes still wait for it.\n    \"\"\"\n    directory.mkdir(parents=True, exist_ok=True)\n    lock_path = directory / \".engram-write.lock\"\n"
+ },
+ {
+  "signal": "writes object not named by any argument",
+  "repo": "Patdolitse/piia-engram",
+  "tool": "get_identity_facets",
+  "kind": "fs.write",
+  "file": "src/piia_engram/storage.py",
+  "line": 422,
+  "term": "derive(with_suffix, join(cfg(self._identity_dir), const('profile.json')))",
+  "code": "        raw = path.read_bytes()\n        if not _corrupt_copy_exists(path, raw):\n            shutil.copy2(path, backup)\n            logger.warning(\"corrupted file backed up to %s\", backup.name)\n"
+ },
+ {
+  "signal": "writes object not named by any argument",
+  "repo": "Patdolitse/piia-engram",
+  "tool": "get_playbooks",
+  "kind": "fs.write",
+  "file": "src/piia_engram/audit.py",
+  "line": 113,
+  "term": "cfg(self.log_path.parent)",
+  "code": "            entry.setdefault(key, value)\n        try:\n            self.log_path.parent.mkdir(parents=True, exist_ok=True)\n            from .file_safety import rotate_if_oversized\n"
+ },
+ {
+  "signal": "writes object not named by any argument",
+  "repo": "Patdolitse/piia-engram",
+  "tool": "get_user_context",
+  "kind": "fs.write",
+  "file": "src/piia_engram/audit.py",
+  "line": 113,
+  "term": "cfg(self.log_path.parent)",
+  "code": "            entry.setdefault(key, value)\n        try:\n            self.log_path.parent.mkdir(parents=True, exist_ok=True)\n            from .file_safety import rotate_if_oversized\n"
+ },
+ {
+  "signal": "writes object not named by any argument",
+  "repo": "Patdolitse/piia-engram",
+  "tool": "request_outline_review",
+  "kind": "fs.write",
+  "file": "src/piia_engram/reports_review.py",
+  "line": 530,
+  "term": "cfg(self._exports_dir)",
+  "code": "        html = self.generate_review_page(lang=lang)\n        export_dir = self._exports_dir\n        export_dir.mkdir(parents=True, exist_ok=True)\n        date_str = datetime.now().strftime(\"%Y-%m-%d\")\n"
+ },
+ {
+  "signal": "writes object not named by any argument",
+  "repo": "Patdolitse/piia-engram",
+  "tool": "review_staging",
+  "kind": "fs.write",
+  "file": "src/piia_engram/audit.py",
+  "line": 113,
+  "term": "cfg(self.log_path.parent)",
+  "code": "            entry.setdefault(key, value)\n        try:\n            self.log_path.parent.mkdir(parents=True, exist_ok=True)\n            from .file_safety import rotate_if_oversized\n"
+ },
+ {
+  "signal": "writes object not named by any argument",
+  "repo": "Patdolitse/piia-engram",
+  "tool": "user_portrait",
+  "kind": "fs.write",
+  "file": "src/piia_engram/storage.py",
+  "line": 422,
+  "term": "derive(with_suffix, join(cfg(self._knowledge_dir), const('domains.json')))",
+  "code": "        raw = path.read_bytes()\n        if not _corrupt_copy_exists(path, raw):\n            shutil.copy2(path, backup)\n            logger.warning(\"corrupted file backed up to %s\", backup.name)\n"
+ },
+ {
+  "signal": "writes object not named by any argument",
+  "repo": "Patdolitse/piia-engram",
+  "tool": "wrap_up_session",
+  "kind": "fs.write",
+  "file": "src/piia_engram/storage.py",
+  "line": 543,
+  "term": "derive(parent, join(join(join(const('playbook=draft')), const('knowledge')), const('tombstones.jsonl')))",
+  "code": "    processes still wait for it.\n    \"\"\"\n    directory.mkdir(parents=True, exist_ok=True)\n    lock_path = directory / \".engram-write.lock\"\n"
+ },
+ {
+  "signal": "writes object not named by any argument",
+  "repo": "cyberchitta/llm-context.py",
+  "tool": "lc_preview",
+  "kind": "fs.write",
+  "file": "src/llm_context/project_setup.py",
+  "line": 75,
+  "term": "cfg(self.template_name.templates_path)",
+  "code": "    @staticmethod\n    def create(project_layout: ProjectLayout) -> \"ProjectSetup\":\n        project_layout.templates_path.mkdir(parents=True, exist_ok=True)\n        project_layout.rules_path.mkdir(parents=True, exist_ok=True)\n"
+ },
+ {
+  "signal": "writes object not named by any argument",
+  "repo": "labyrinth-analytics/loredocs",
+  "tool": "configure_tools",
+  "kind": "fs.write",
+  "file": "loredocs/tiers.py",
+  "line": 113,
+  "term": "join(derive(str, join(union(join(cfg(Path.home), const('.loredocs')), join(cfg(env:LOREDOCS_ROOT))), const('config.json'))), const('.tmp'))",
+  "code": "        json.dump(config, f, indent=2)\n    os.chmod(tmp_path, 0o600)\n    os.replace(tmp_path, str(path))\n\n"
+ }
+]

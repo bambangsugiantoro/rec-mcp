@@ -1,0 +1,103 @@
+{
+ "repos_cloned": 28,
+ "repos_with_tools": 16,
+ "repos_lowlevel_only": 0,
+ "tools": 212,
+ "tools_with_sensitive_sites": 88,
+ "sites": 903,
+ "by_kind": {
+  "fs.read": 263,
+  "fs.write": 451,
+  "fs.delete": 99,
+  "http.request": 30,
+  "fs.list": 60
+ },
+ "derived": 227,
+ "failed": 676,
+ "coverage": 0.251,
+ "coverage_by_kind": {
+  "fs.read": 0.319,
+  "fs.write": 0.228,
+  "fs.delete": 0.0,
+  "http.request": 0.667,
+  "fs.list": 0.333
+ },
+ "via_helper": 0.993,
+ "bot_reasons": [
+  [
+   "subscript",
+   528
+  ],
+  [
+   "attribute",
+   450
+  ],
+  [
+   "unknown name",
+   339
+  ],
+  [
+   "call",
+   220
+  ],
+  [
+   "loop",
+   40
+  ],
+  [
+   "Starred",
+   7
+  ],
+  [
+   "Dict",
+   3
+  ],
+  [
+   "handle",
+   2
+  ]
+ ],
+ "signal_tools": {
+  "arg-controlled path without containment check": 1,
+  "writes object not named by any argument": 22,
+  "write/delete in tool named as read-only": 11,
+  "argument controls request URL/host": 1
+ },
+ "tools_any_signal": 28,
+ "repos_any_signal": 4,
+ "tools_contained": 72,
+ "sites_per_repo": [
+  [
+   "labyrinth-analytics/loredocs",
+   513
+  ],
+  [
+   "Patdolitse/piia-engram",
+   328
+  ],
+  [
+   "cyberchitta/llm-context.py",
+   22
+  ],
+  [
+   "TeleAI-UAGI/telemem",
+   18
+  ],
+  [
+   "bzsanti/oxidize-python",
+   12
+  ],
+  [
+   "jlucasmcrell/apify-scrapers",
+   6
+  ],
+  [
+   "velyan/pdf-card-mcp",
+   3
+  ],
+  [
+   "Cohexa-ai/agent-coherence",
+   1
+  ]
+ ]
+}

@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the archived release."
+title: "REC-MCP: Replication package for Relational Effect Contracts for Securing MCP Tool Execution"
+version: "1.0.0"
+date-released: "2026-11-02"
+license: MIT
+repository-code: "https://github.com/bambangsugiantoro/rec-mcp"
+authors:
+  - family-names: Sugiantoro
+    given-names: Bambang
+    affiliation: "Informatics Department, UIN Sunan Kalijaga, Yogyakarta, Indonesia"
+    email: bambang.sugiantoro@uin-suka.ac.id
+  - family-names: Hafizuddin
+    given-names: Faiz Akhmad
+    affiliation: "Informatics Department, UIN Sunan Kalijaga, Yogyakarta, Indonesia"
+keywords: ["Model Context Protocol", "LLM agents", "authorization", "static analysis", "reference monitor"]

@@ -1,0 +1,58 @@
+{
+ "repos_attempted": 37,
+ "repos_import_ok": 21,
+ "files": 56,
+ "files_import_ok": 33,
+ "tools_called": 220,
+ "call_status": {
+  "raised": 235,
+  "ok": 205
+ },
+ "tools_with_effects": 105,
+ "events": 567,
+ "event_classes": {
+  "net-other": 161,
+  "net-probe": 250,
+  "nonarg-inside": 90,
+  "arg-inside": 18,
+  "nonarg-outside": 48
+ },
+ "tools_traversal_confirmed": 5,
+ "tools_hidden_write": 20,
+ "tools_net_other_host": 64,
+ "tools_net_arg_url": 60,
+ "hidden_write_agreement": {
+  "static_none|dyn_none": 78,
+  "static_hidden|dyn_hidden": 12,
+  "static_none|dyn_hidden": 8,
+  "static_hidden|dyn_none": 7
+ },
+ "traversal_agreement": {
+  "static_contained_or_none|dyn_escape": 2,
+  "static_uncontained|dyn_escape": 3
+ },
+ "traversal_tools": [
+  "Fulcrum-Enterprises/verify-proof::add_receipt_step",
+  "Fulcrum-Enterprises/verify-proof::anchor_run_receipt",
+  "Fulcrum-Enterprises/verify-proof::start_run_receipt",
+  "Fulcrum-Enterprises/verify-proof::verify_run_receipt",
+  "kimimgo/viznoir::pv_isosurface"
+ ],
+ "hidden_write_tools_sample": [
+  "agentic-mcp-tools/memora::memory_clusters",
+  "agentic-mcp-tools/memora::memory_create_batch",
+  "agentic-mcp-tools/memora::memory_create_section",
+  "agentic-mcp-tools/memora::memory_delete_batch",
+  "agentic-mcp-tools/memora::memory_delete_document",
+  "agentic-mcp-tools/memora::memory_merge",
+  "agentic-mcp-tools/memora::memory_migrate_images",
+  "agentic-mcp-tools/memora::memory_update",
+  "kimimgo/viznoir::compose_assets",
+  "segentic-lab/periscope-mcp::handle_check_links",
+  "segentic-lab/periscope-mcp::handle_get_page_elements",
+  "segentic-lab/periscope-mcp::handle_get_screenshot",
+  "segentic-lab/periscope-mcp::handle_interact_and_test",
+  "segentic-lab/periscope-mcp::handle_open_session",
+  "segentic-lab/periscope-mcp::handle_record_session"
+ ]
+}
