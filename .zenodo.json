@@ -1,7 +1,7 @@
 {
   "title": "REC-MCP: Replication package for Relational Effect Contracts for Securing MCP Tool Execution",
   "upload_type": "software",
-  "description": "Static analyzer, enforcement broker, benchmarks, corpus manifest, labels and raw results for the paper 'Relational Effect Contracts for Securing MCP Tool Execution' (submitted to Computers & Security).",
+  "description": "Static analyzer, enforcement broker, benchmarks, corpus manifest, labels and raw results for the paper 'Relational Effect Contracts for Securing MCP Tool Execution'.",
   "creators": [
     {"name": "Sugiantoro, Bambang", "affiliation": "UIN Sunan Kalijaga, Yogyakarta, Indonesia"},
     {"name": "Hafizuddin, Faiz Akhmad", "affiliation": "UIN Sunan Kalijaga, Yogyakarta, Indonesia"}
