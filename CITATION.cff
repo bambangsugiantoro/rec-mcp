@@ -4,6 +4,7 @@ title: "REC-MCP: Replication package for Relational Effect Contracts for Securin
 version: "1.0.0"
 date-released: "2026-11-02"
 license: MIT
+doi: "10.5281/zenodo.23875455"
 repository-code: "https://github.com/bambangsugiantoro/rec-mcp"
 authors:
   - family-names: Sugiantoro

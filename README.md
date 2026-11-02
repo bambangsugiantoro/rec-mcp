@@ -1,5 +1,7 @@
 # REC-MCP: Relational Effect Contracts for MCP tool execution
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23875455.svg)](https://doi.org/10.5281/zenodo.23875455)
+
 Replication package for:
 
 > Sugiantoro, B., Hafizuddin, F.A. *Relational Effect Contracts for Securing MCP Tool Execution.* Submitted to *Computers & Security* (Elsevier).
@@ -70,7 +72,7 @@ Code: MIT (see `LICENSE`). Data and results: CC BY 4.0. Third-party repositories
 
 ## Citation
 
-See `CITATION.cff`. Please cite the archived release DOI shown on the Zenodo badge of this repository.
+See `CITATION.cff`. Archived release v1.0.0: https://doi.org/10.5281/zenodo.23875455
 
 ## Contact
 
